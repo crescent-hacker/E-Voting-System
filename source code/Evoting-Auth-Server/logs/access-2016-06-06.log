@@ -1,0 +1,4811 @@
+[2016-06-06 00:00:05.794] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 00:00:05.796] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 7,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 5 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 56 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 126 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 89 } ] }
+[2016-06-06 00:00:44.228] [INFO] normal - GET /pre_login
+[2016-06-06 00:00:44.442] [DEBUG] normal - User difan.chen has logined
+[2016-06-06 00:00:44.454] [INFO] normal - POST /login
+[2016-06-06 00:00:44.636] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-06 00:00:44.822] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-06 00:00:44.822] [DEBUG] normal - has_system_init successful.
+[2016-06-06 00:00:44.824] [INFO] normal - GET /has_system_init
+[2016-06-06 00:00:55.092] [INFO] normal - GET /pre_login
+[2016-06-06 00:00:55.345] [DEBUG] normal - User stefan has logined
+[2016-06-06 00:00:55.347] [INFO] normal - POST /login
+[2016-06-06 00:00:55.530] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 00:00:55.716] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 00:00:55.905] [ERROR] normal - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1
+    at Query.Sequence._packetToError (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Sequence.js:48:14)
+    at Query.ErrorPacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Query.js:83:18)
+    at Protocol._parsePacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Parser.js:73:12)
+    at Protocol.write (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/Connection.js:96:28)
+    at emitOne (events.js:78:13)
+    at Socket.emit (events.js:170:7)
+    at readableAddChunk (_stream_readable.js:147:16)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    --------------------
+    at Protocol._enqueue (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Connection.query (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/Connection.js:201:25)
+    at Object.dao.system_init (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/app/dao_module/tally_manager_dao.js:22:16)
+    at /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/app/route_module/tally_manager.js:46:13
+    at Layer.handle [as handle_request] (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/express/lib/router/route.js:131:13)
+    at /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/app/route_module/routes.js:80:29
+    at Query._callback (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/app/dao_module/user_manager_dao.js:180:16)
+    at Query.Sequence.end (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24)
+    at Query._handleFinalResultPacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Query.js:144:8)
+[2016-06-06 00:00:55.908] [INFO] normal - GET /system_init
+[2016-06-06 00:01:31.997] [INFO] normal - GET /pre_login
+[2016-06-06 00:01:32.227] [DEBUG] normal - User stefan has logined
+[2016-06-06 00:01:32.230] [INFO] normal - POST /login
+[2016-06-06 00:01:32.416] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 00:01:32.606] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 00:01:32.793] [ERROR] normal - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1
+    at Query.Sequence._packetToError (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Sequence.js:48:14)
+    at Query.ErrorPacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Query.js:83:18)
+    at Protocol._parsePacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Parser.js:73:12)
+    at Protocol.write (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/Connection.js:96:28)
+    at emitOne (events.js:78:13)
+    at Socket.emit (events.js:170:7)
+    at readableAddChunk (_stream_readable.js:147:16)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    --------------------
+    at Protocol._enqueue (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Connection.query (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/Connection.js:201:25)
+    at Object.dao.system_init (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/app/dao_module/tally_manager_dao.js:22:16)
+    at /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/app/route_module/tally_manager.js:46:13
+    at Layer.handle [as handle_request] (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/express/lib/router/route.js:131:13)
+    at /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/app/route_module/routes.js:80:29
+    at Query._callback (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/app/dao_module/user_manager_dao.js:180:16)
+    at Query.Sequence.end (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24)
+    at Query._handleFinalResultPacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Query.js:144:8)
+[2016-06-06 00:01:32.794] [INFO] normal - GET /system_init
+[2016-06-06 00:01:38.989] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 00:01:38.991] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 7,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 5 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 56 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 126 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 89 } ] }
+[2016-06-06 00:01:39.436] [INFO] normal - GET /pre_login
+[2016-06-06 00:01:39.637] [DEBUG] normal - User stefan has logined
+[2016-06-06 00:01:39.646] [INFO] normal - POST /login
+[2016-06-06 00:01:39.827] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 00:01:40.013] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 00:01:40.197] [DEBUG] normal - system_init successful.
+[2016-06-06 00:01:40.198] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, q: 8 }
+[2016-06-06 00:01:40.200] [INFO] normal - GET /system_init
+[2016-06-06 00:07:41.698] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 00:07:41.699] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 7,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 5 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 56 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 126 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 89 } ] }
+[2016-06-06 00:07:47.122] [INFO] normal - GET /pre_login
+[2016-06-06 00:07:47.339] [DEBUG] normal - User stefan has logined
+[2016-06-06 00:07:47.350] [INFO] normal - POST /login
+[2016-06-06 00:07:47.529] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 00:07:47.718] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 00:07:48.084] [DEBUG] normal - system_init successful.
+[2016-06-06 00:07:48.084] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, q: 8 }
+[2016-06-06 00:07:48.086] [INFO] normal - GET /system_init
+[2016-06-06 00:12:30.982] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 00:12:30.984] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 5, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 5, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 5, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 5, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 5, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 00:13:35.451] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 00:13:56.671] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 00:13:56.672] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 5, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 5, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 5, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 5, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 5, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 00:14:39.387] [INFO] normal - GET /pre_login
+[2016-06-06 00:14:39.599] [DEBUG] normal - User stefan has logined
+[2016-06-06 00:14:39.609] [INFO] normal - POST /login
+[2016-06-06 00:14:39.786] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 00:14:39.968] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 00:14:40.336] [DEBUG] normal - system_init successful.
+[2016-06-06 00:14:40.336] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, q: 8 }
+[2016-06-06 00:14:40.338] [INFO] normal - GET /system_init
+[2016-06-06 00:15:04.334] [INFO] normal - GET /pre_login
+[2016-06-06 00:15:04.557] [DEBUG] normal - User stefan has logined
+[2016-06-06 00:15:04.563] [INFO] normal - POST /login
+[2016-06-06 00:15:04.741] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 00:15:04.923] [DEBUG] normal - Normal User stefan is accessing.
+[2016-06-06 00:15:04.924] [DEBUG] normal - has_system_init successful.
+[2016-06-06 00:15:04.927] [INFO] normal - GET /has_system_init
+[2016-06-06 01:12:22.081] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 01:12:22.082] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 11, sp_id: 6, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 12, sp_id: 6, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 13, sp_id: 6, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 14, sp_id: 6, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 15, sp_id: 6, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 01:12:37.694] [INFO] normal - GET /pre_login
+[2016-06-06 01:12:37.905] [DEBUG] normal - User stefan has logined
+[2016-06-06 01:12:37.919] [INFO] normal - POST /login
+[2016-06-06 01:12:38.100] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 01:12:38.286] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 01:12:38.658] [DEBUG] normal - system_init successful.
+[2016-06-06 01:12:38.658] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, q: 8 }
+[2016-06-06 01:12:38.660] [INFO] normal - GET /system_init
+[2016-06-06 01:12:39.025] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 01:12:39.025] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 16, sp_id: 7, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 17, sp_id: 7, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 18, sp_id: 7, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 19, sp_id: 7, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 20, sp_id: 7, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 01:12:48.221] [INFO] normal - GET /pre_login
+[2016-06-06 01:12:48.444] [DEBUG] normal - User stefan has logined
+[2016-06-06 01:12:48.447] [INFO] normal - POST /login
+[2016-06-06 01:12:48.640] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 01:12:48.830] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 01:12:49.193] [DEBUG] normal - system_init successful.
+[2016-06-06 01:12:49.193] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, q: 8 }
+[2016-06-06 01:12:49.195] [INFO] normal - GET /system_init
+[2016-06-06 01:12:49.559] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 01:12:49.559] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 21, sp_id: 8, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 22, sp_id: 8, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 23, sp_id: 8, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 24, sp_id: 8, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 25, sp_id: 8, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 01:13:36.285] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 01:13:36.286] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 21, sp_id: 8, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 22, sp_id: 8, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 23, sp_id: 8, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 24, sp_id: 8, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 25, sp_id: 8, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 01:13:45.799] [INFO] normal - GET /pre_login
+[2016-06-06 01:13:46.006] [DEBUG] normal - User stefan has logined
+[2016-06-06 01:13:46.018] [INFO] normal - POST /login
+[2016-06-06 01:13:46.193] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 01:13:46.377] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 01:13:46.739] [DEBUG] normal - system_init successful.
+[2016-06-06 01:13:46.740] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, q: 8 }
+[2016-06-06 01:13:46.741] [INFO] normal - GET /system_init
+[2016-06-06 01:13:47.102] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 01:13:47.102] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 26, sp_id: 9, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 27, sp_id: 9, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 28, sp_id: 9, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 29, sp_id: 9, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 30, sp_id: 9, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 01:14:41.433] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 01:14:41.434] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 26, sp_id: 9, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 27, sp_id: 9, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 28, sp_id: 9, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 29, sp_id: 9, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 30, sp_id: 9, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 01:14:44.210] [INFO] normal - GET /pre_login
+[2016-06-06 01:14:44.425] [DEBUG] normal - User stefan has logined
+[2016-06-06 01:14:44.433] [INFO] normal - POST /login
+[2016-06-06 01:14:44.613] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 01:14:44.797] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 01:14:45.165] [DEBUG] normal - system_init successful.
+[2016-06-06 01:14:45.166] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, q: 8 }
+[2016-06-06 01:14:45.169] [INFO] normal - GET /system_init
+[2016-06-06 01:14:45.536] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 01:14:45.536] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 31, sp_id: 10, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 32, sp_id: 10, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 33, sp_id: 10, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 34, sp_id: 10, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 35, sp_id: 10, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 01:15:36.310] [INFO] normal - GET /pre_login
+[2016-06-06 01:15:36.530] [DEBUG] normal - User stefan has logined
+[2016-06-06 01:15:36.539] [INFO] normal - POST /login
+[2016-06-06 01:15:36.719] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 01:15:36.903] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 01:15:37.270] [DEBUG] normal - system_init successful.
+[2016-06-06 01:15:37.270] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, q: 8 }
+[2016-06-06 01:15:37.272] [INFO] normal - GET /system_init
+[2016-06-06 01:15:37.640] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 01:15:37.640] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 40, sp_id: 11, tally_seq: 5, secret: 12 },
+     RowDataPacket { ks_id: 39, sp_id: 11, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 38, sp_id: 11, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 37, sp_id: 11, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 36, sp_id: 11, tally_seq: 1, secret: 6 } ] }
+[2016-06-06 01:17:57.450] [INFO] normal - GET /pre_login
+[2016-06-06 01:17:57.672] [DEBUG] normal - User stefan has logined
+[2016-06-06 01:17:57.674] [INFO] normal - POST /login
+[2016-06-06 01:17:57.856] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 01:17:58.042] [DEBUG] normal - Normal User stefan is accessing.
+[2016-06-06 01:17:58.044] [DEBUG] normal - has_system_init successful.
+[2016-06-06 01:17:58.046] [INFO] normal - GET /has_system_init
+[2016-06-06 01:18:05.640] [ERROR] normal - System has not been initialized yet.
+[2016-06-06 01:18:08.869] [INFO] normal - GET /pre_login
+[2016-06-06 01:18:09.081] [DEBUG] normal - User stefan has logined
+[2016-06-06 01:18:09.089] [INFO] normal - POST /login
+[2016-06-06 01:18:09.270] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 01:18:09.458] [DEBUG] normal - Normal User stefan is accessing.
+[2016-06-06 01:18:09.460] [INFO] normal - GET /has_system_init
+[2016-06-06 01:18:25.704] [INFO] normal - GET /pre_login
+[2016-06-06 01:18:25.931] [DEBUG] normal - User stefan has logined
+[2016-06-06 01:18:25.935] [INFO] normal - POST /login
+[2016-06-06 01:18:26.118] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 01:18:26.305] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 01:18:26.676] [DEBUG] normal - system_init successful.
+[2016-06-06 01:18:26.676] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, q: 8 }
+[2016-06-06 01:18:26.692] [INFO] normal - GET /system_init
+[2016-06-06 01:18:27.060] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 01:18:27.060] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 10:57:55.084] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 10:57:55.087] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 10:57:58.535] [INFO] normal - GET /pre_login
+[2016-06-06 10:57:58.722] [DEBUG] normal - User stefan has logined
+[2016-06-06 10:57:58.729] [INFO] normal - POST /login
+[2016-06-06 10:57:58.904] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 10:57:59.081] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:13:37.451] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 11:13:37.456] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 11:13:38.905] [INFO] normal - GET /pre_login
+[2016-06-06 11:13:39.100] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:13:39.109] [INFO] normal - POST /login
+[2016-06-06 11:13:39.268] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:13:39.434] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:13:57.876] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 11:13:57.881] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 11:13:59.155] [INFO] normal - GET /pre_login
+[2016-06-06 11:13:59.354] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:13:59.368] [INFO] normal - POST /login
+[2016-06-06 11:13:59.522] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:13:59.688] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:14:22.135] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 11:14:22.137] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 11:14:33.838] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 11:14:33.839] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 11:14:36.951] [INFO] normal - GET /pre_login
+[2016-06-06 11:14:37.145] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:14:37.153] [INFO] normal - POST /login
+[2016-06-06 11:14:37.313] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:14:37.480] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:14:37.482] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:16:09.542] [INFO] normal - GET /pre_login
+[2016-06-06 11:16:09.749] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:16:09.751] [INFO] normal - POST /login
+[2016-06-06 11:16:09.915] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:16:10.086] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:16:10.088] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:16:27.084] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 11:16:27.086] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 11:16:27.939] [INFO] normal - GET /pre_login
+[2016-06-06 11:16:28.201] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:16:28.213] [INFO] normal - POST /login
+[2016-06-06 11:16:28.373] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:16:28.539] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:16:28.541] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:16:38.480] [INFO] normal - GET /pre_login
+[2016-06-06 11:16:38.670] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:16:38.677] [INFO] normal - POST /login
+[2016-06-06 11:16:38.837] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:16:39.003] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:16:39.005] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:16:41.274] [INFO] normal - GET /pre_login
+[2016-06-06 11:16:41.501] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:16:41.504] [INFO] normal - POST /login
+[2016-06-06 11:16:41.667] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:16:41.832] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:16:41.834] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:16:42.757] [INFO] normal - GET /pre_login
+[2016-06-06 11:16:42.950] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:16:42.957] [INFO] normal - POST /login
+[2016-06-06 11:16:43.118] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:16:43.283] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:16:43.287] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:16:44.129] [INFO] normal - GET /pre_login
+[2016-06-06 11:16:44.321] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:16:44.324] [INFO] normal - POST /login
+[2016-06-06 11:16:44.489] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:16:44.655] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:16:44.657] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:16:45.535] [INFO] normal - GET /pre_login
+[2016-06-06 11:16:45.783] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:16:45.786] [INFO] normal - POST /login
+[2016-06-06 11:16:45.948] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:16:46.112] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:16:46.115] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:16:47.051] [INFO] normal - GET /pre_login
+[2016-06-06 11:16:47.256] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:16:47.259] [INFO] normal - POST /login
+[2016-06-06 11:16:47.420] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:16:47.585] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:16:47.586] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:16:48.510] [INFO] normal - GET /pre_login
+[2016-06-06 11:16:48.701] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:16:48.703] [INFO] normal - POST /login
+[2016-06-06 11:16:48.865] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:16:49.033] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:16:49.034] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:16:49.952] [INFO] normal - GET /pre_login
+[2016-06-06 11:16:50.148] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:16:50.149] [INFO] normal - POST /login
+[2016-06-06 11:16:50.312] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:16:50.477] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:16:50.479] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:16:51.393] [INFO] normal - GET /pre_login
+[2016-06-06 11:16:51.590] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:16:51.593] [INFO] normal - POST /login
+[2016-06-06 11:16:51.756] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:16:51.921] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:16:51.923] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:16:52.765] [INFO] normal - GET /pre_login
+[2016-06-06 11:16:52.958] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:16:52.959] [INFO] normal - POST /login
+[2016-06-06 11:16:53.123] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:16:53.293] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:16:53.295] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:29:24.603] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 11:29:24.605] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 11:29:28.160] [INFO] normal - GET /pre_login
+[2016-06-06 11:29:28.388] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:29:28.400] [INFO] normal - POST /login
+[2016-06-06 11:29:28.563] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:29:28.730] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:29:29.878] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:32:37.183] [INFO] normal - GET /pre_login
+[2016-06-06 11:32:37.426] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:32:37.429] [INFO] normal - POST /login
+[2016-06-06 11:32:37.603] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:32:37.773] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:32:39.048] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:34:43.668] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 11:34:43.669] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 11:34:46.421] [INFO] normal - GET /pre_login
+[2016-06-06 11:34:46.617] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:34:46.623] [INFO] normal - POST /login
+[2016-06-06 11:34:46.789] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:34:46.959] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:34:48.652] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 11:34:48.654] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 11:35:55.071] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 11:35:55.073] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 11:36:04.691] [INFO] normal - GET /pre_login
+[2016-06-06 11:36:04.883] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:36:04.895] [INFO] normal - POST /login
+[2016-06-06 11:36:05.053] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:36:05.221] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:36:06.883] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 11:36:06.885] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 11:36:35.345] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 11:36:35.347] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 11:36:36.881] [INFO] normal - GET /pre_login
+[2016-06-06 11:36:37.107] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:36:37.119] [INFO] normal - POST /login
+[2016-06-06 11:36:37.279] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:36:37.446] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:36:37.742] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10000 1 successfully
+[2016-06-06 11:36:38.096] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10001 2 successfully
+[2016-06-06 11:36:38.661] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10002 3 mainsuccessfully
+[2016-06-06 11:36:39.023] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10003 4 successfully
+[2016-06-06 11:36:39.340] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10004 5 successfully
+[2016-06-06 11:36:39.342] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:38:46.685] [INFO] normal - GET /pre_login
+[2016-06-06 11:38:46.898] [DEBUG] normal - User difan.chen has logined
+[2016-06-06 11:38:46.902] [INFO] normal - POST /login
+[2016-06-06 11:38:47.065] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-06 11:38:47.232] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-06 11:38:47.736] [DEBUG] normal - get_vote_list successfully
+[2016-06-06 11:38:47.738] [INFO] normal - GET /get_vote
+[2016-06-06 11:42:08.476] [INFO] normal - GET /pre_login
+[2016-06-06 11:42:08.691] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:42:08.700] [INFO] normal - POST /login
+[2016-06-06 11:42:08.861] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:42:09.027] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:42:09.309] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10000 1 successfully
+[2016-06-06 11:42:09.573] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10001 2 successfully
+[2016-06-06 11:42:09.853] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10002 3 successfully
+[2016-06-06 11:42:10.252] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10003 4 successfully
+[2016-06-06 11:42:10.858] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10004 5 mainsuccessfully
+[2016-06-06 11:42:10.861] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 11:52:49.573] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 11:52:49.574] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 11:52:50.908] [INFO] normal - GET /pre_login
+[2016-06-06 11:52:51.105] [DEBUG] normal - User stefan has logined
+[2016-06-06 11:52:51.114] [INFO] normal - POST /login
+[2016-06-06 11:52:51.276] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 11:52:51.444] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 11:52:52.150] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10000 1 [object Object]  successfully
+[2016-06-06 11:52:52.705] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10001 2 [object Object]  successfully
+[2016-06-06 11:52:53.221] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10002 3 [object Object]  successfully
+[2016-06-06 11:52:53.690] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10003 4 [object Object] main successfully
+[2016-06-06 11:52:54.178] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10004 5 [object Object]  successfully
+[2016-06-06 11:52:54.182] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 12:20:28.709] [INFO] normal - GET /pre_login
+[2016-06-06 12:20:28.910] [DEBUG] normal - User stefan has logined
+[2016-06-06 12:20:28.914] [INFO] normal - POST /login
+[2016-06-06 12:20:29.078] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 12:20:29.249] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 12:20:29.824] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10000 1 [object Object]  successfully
+[2016-06-06 12:20:30.338] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10001 2 [object Object]  successfully
+[2016-06-06 12:20:30.840] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10002 3 [object Object] main successfully
+[2016-06-06 12:20:31.474] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10003 4 [object Object]  successfully
+[2016-06-06 12:20:32.049] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10004 5 [object Object]  successfully
+[2016-06-06 12:20:32.051] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 12:20:44.481] [INFO] normal - GET /pre_login
+[2016-06-06 12:20:44.685] [DEBUG] normal - User difan.chen has logined
+[2016-06-06 12:20:44.689] [INFO] normal - POST /login
+[2016-06-06 12:20:44.850] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-06 12:23:59.927] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 12:23:59.928] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 12:24:02.657] [INFO] normal - GET /pre_login
+[2016-06-06 12:24:02.848] [DEBUG] normal - User stefan has logined
+[2016-06-06 12:24:02.855] [INFO] normal - POST /login
+[2016-06-06 12:24:03.017] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 12:24:03.183] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 12:24:03.349] [DEBUG] normal - get_vote_list successfully
+[2016-06-06 12:24:03.351] [INFO] normal - GET /get_vote_list_m
+[2016-06-06 12:27:20.153] [INFO] normal - GET /pre_login
+[2016-06-06 12:27:20.356] [INFO] normal - POST /login
+[2016-06-06 12:30:23.869] [INFO] normal - GET /pre_login
+[2016-06-06 12:30:24.065] [DEBUG] normal - User stefan has logined
+[2016-06-06 12:30:24.068] [INFO] normal - POST /login
+[2016-06-06 12:30:24.234] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 12:30:24.401] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 12:30:24.566] [DEBUG] normal - get_vote_list successfully
+[2016-06-06 12:30:24.568] [INFO] normal - GET /get_vote_list_m
+[2016-06-06 12:33:28.880] [INFO] normal - GET /pre_login
+[2016-06-06 12:33:29.088] [DEBUG] normal - User stefan has logined
+[2016-06-06 12:33:29.089] [INFO] normal - POST /login
+[2016-06-06 12:33:29.255] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 12:33:29.420] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 12:33:29.916] [DEBUG] normal - get_vote_list successfully
+[2016-06-06 12:33:29.918] [INFO] normal - GET /get_vote_m
+[2016-06-06 13:53:40.074] [INFO] normal - GET /pre_login
+[2016-06-06 13:53:46.923] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 13:53:46.924] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 13:53:47.627] [INFO] normal - GET /pre_login
+[2016-06-06 13:53:47.855] [DEBUG] normal - User stefan has logined
+[2016-06-06 13:53:47.869] [INFO] normal - POST /login
+[2016-06-06 13:53:48.040] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 13:53:48.212] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 13:53:48.840] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10000 1 [object Object]  successfully
+[2016-06-06 13:53:49.338] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10001 2 [object Object] main successfully
+[2016-06-06 13:53:49.963] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10002 3 [object Object]  successfully
+[2016-06-06 13:53:50.532] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10003 4 [object Object]  successfully
+[2016-06-06 13:53:51.074] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10004 5 [object Object]  successfully
+[2016-06-06 13:53:51.076] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 13:54:50.558] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 13:54:50.559] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 13:54:51.647] [INFO] normal - GET /pre_login
+[2016-06-06 13:54:51.875] [DEBUG] normal - User stefan has logined
+[2016-06-06 13:54:51.895] [INFO] normal - POST /login
+[2016-06-06 13:54:52.058] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 13:54:52.231] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 13:54:52.779] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10000 1 6  successfully
+[2016-06-06 13:54:53.345] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10001 2 123 main successfully
+[2016-06-06 13:54:53.921] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10002 3 345  successfully
+[2016-06-06 13:54:54.402] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10003 4 45  successfully
+[2016-06-06 13:54:54.887] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10004 5 12  successfully
+[2016-06-06 13:54:54.889] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 13:56:01.600] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 13:56:01.601] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 13:56:06.143] [INFO] normal - GET /pre_login
+[2016-06-06 13:56:06.335] [DEBUG] normal - User stefan has logined
+[2016-06-06 13:56:06.346] [INFO] normal - POST /login
+[2016-06-06 13:56:06.509] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 13:56:06.680] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 13:56:07.806] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 14:01:26.079] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:01:26.081] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:01:27.153] [INFO] normal - GET /pre_login
+[2016-06-06 14:01:27.431] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:01:27.447] [INFO] normal - POST /login
+[2016-06-06 14:01:27.609] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:01:27.777] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:01:28.222] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10000 1 6 main successfully
+[2016-06-06 14:01:28.224] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 14:03:39.669] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:03:39.671] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:03:40.460] [INFO] normal - GET /pre_login
+[2016-06-06 14:03:40.659] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:03:40.681] [INFO] normal - POST /login
+[2016-06-06 14:03:40.876] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:03:41.049] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:03:41.375] [ERROR] normal - 1
+[2016-06-06 14:03:41.378] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 14:16:30.577] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:16:30.579] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:18:43.185] [INFO] normal - GET /pre_login
+[2016-06-06 14:18:43.409] [DEBUG] normal - User difan.chen has logined
+[2016-06-06 14:18:43.427] [INFO] normal - POST /login
+[2016-06-06 14:18:43.589] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-06 14:19:00.597] [INFO] normal - GET /pre_login
+[2016-06-06 14:19:00.794] [DEBUG] normal - User difan.chen has logined
+[2016-06-06 14:19:00.797] [INFO] normal - POST /login
+[2016-06-06 14:19:00.964] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-06 14:19:01.135] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-06 14:19:01.300] [DEBUG] normal - get_vote_list successfully
+[2016-06-06 14:19:01.302] [INFO] normal - GET /get_vote_list
+[2016-06-06 14:19:44.237] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:19:44.238] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:19:45.335] [INFO] normal - GET /pre_login
+[2016-06-06 14:19:45.525] [DEBUG] normal - User difan.chen has logined
+[2016-06-06 14:19:45.550] [INFO] normal - POST /login
+[2016-06-06 14:19:45.701] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-06 14:19:54.673] [INFO] normal - GET /pre_login
+[2016-06-06 14:19:54.699] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:19:54.700] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:19:54.862] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:19:54.869] [INFO] normal - POST /login
+[2016-06-06 14:19:55.033] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:19:55.203] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:19:55.370] [DEBUG] normal - get_user_list successfully
+[2016-06-06 14:19:55.375] [INFO] normal - GET /get_user_list
+[2016-06-06 14:22:24.760] [INFO] normal - GET /pre_login
+[2016-06-06 14:22:24.950] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:22:24.952] [INFO] normal - POST /login
+[2016-06-06 14:22:25.115] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:22:25.294] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:22:25.465] [DEBUG] normal - get_user_list successfully
+[2016-06-06 14:22:25.467] [INFO] normal - GET /get_user_list
+[2016-06-06 14:23:14.598] [INFO] normal - GET /pre_login
+[2016-06-06 14:23:14.813] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:23:14.815] [INFO] normal - POST /login
+[2016-06-06 14:23:14.980] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:23:15.146] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:23:15.314] [DEBUG] normal - get_user_list successfully
+[2016-06-06 14:23:15.316] [INFO] normal - GET /get_user_list
+[2016-06-06 14:23:25.615] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:23:25.617] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:23:26.874] [INFO] normal - GET /pre_login
+[2016-06-06 14:23:27.067] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:23:27.074] [INFO] normal - POST /login
+[2016-06-06 14:23:27.234] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:23:27.401] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:23:27.568] [DEBUG] normal - get_user_list successfully
+[2016-06-06 14:23:27.569] [INFO] normal - GET /get_user_list
+[2016-06-06 14:24:05.356] [INFO] normal - GET /pre_login
+[2016-06-06 14:24:05.571] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:24:05.574] [INFO] normal - POST /login
+[2016-06-06 14:24:05.737] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:24:05.906] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:25:05.787] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:25:05.788] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:25:08.225] [INFO] normal - GET /pre_login
+[2016-06-06 14:25:08.419] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:25:08.426] [INFO] normal - POST /login
+[2016-06-06 14:25:08.587] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:25:08.756] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:29:04.665] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10004 5 12  successfully
+[2016-06-06 14:29:08.328] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10004 5 12  successfully
+[2016-06-06 14:29:10.024] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10004 5 12  successfully
+[2016-06-06 14:29:16.984] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10004 5 12  successfully
+[2016-06-06 14:29:20.488] [DEBUG] normal - run node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10004 5 12  successfully
+[2016-06-06 14:30:53.178] [INFO] normal - GET /pre_login
+[2016-06-06 14:30:53.378] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:30:53.383] [INFO] normal - POST /login
+[2016-06-06 14:30:53.546] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:30:53.710] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:34:09.572] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:34:09.574] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:34:10.957] [INFO] normal - GET /pre_login
+[2016-06-06 14:34:11.148] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:34:11.159] [INFO] normal - POST /login
+[2016-06-06 14:34:11.318] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:34:11.487] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:34:45.710] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:34:45.712] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:34:45.920] [INFO] normal - GET /pre_login
+[2016-06-06 14:34:46.115] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:34:46.123] [INFO] normal - POST /login
+[2016-06-06 14:34:46.292] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:34:46.462] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:35:27.439] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:35:27.440] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:35:27.888] [INFO] normal - GET /pre_login
+[2016-06-06 14:35:28.157] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:35:28.165] [INFO] normal - POST /login
+[2016-06-06 14:35:28.333] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:35:28.502] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:35:28.510] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 14:35:39.937] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:35:39.939] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:35:40.531] [INFO] normal - GET /pre_login
+[2016-06-06 14:35:40.738] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:35:40.763] [INFO] normal - POST /login
+[2016-06-06 14:35:40.919] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:35:41.098] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:38:48.101] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:38:48.102] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:38:48.727] [INFO] normal - GET /pre_login
+[2016-06-06 14:38:48.927] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:38:48.951] [INFO] normal - POST /login
+[2016-06-06 14:38:49.103] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:38:49.285] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:40:32.732] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:40:32.734] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:40:33.890] [INFO] normal - GET /pre_login
+[2016-06-06 14:40:34.079] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:40:34.088] [INFO] normal - POST /login
+[2016-06-06 14:40:34.249] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:40:34.416] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:41:00.168] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:41:00.170] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:41:00.259] [INFO] normal - GET /pre_login
+[2016-06-06 14:41:00.459] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:41:00.475] [INFO] normal - POST /login
+[2016-06-06 14:41:00.631] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:41:00.798] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:41:00.807] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 14:43:05.494] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:43:05.496] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:43:11.040] [INFO] normal - GET /pre_login
+[2016-06-06 14:43:11.236] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:43:11.247] [INFO] normal - POST /login
+[2016-06-06 14:43:11.406] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:43:11.573] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:46:17.096] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:46:17.097] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:46:21.079] [INFO] normal - GET /pre_login
+[2016-06-06 14:46:21.329] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:46:21.342] [INFO] normal - POST /login
+[2016-06-06 14:46:21.498] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:46:21.665] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:47:33.467] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:47:33.469] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:47:36.136] [INFO] normal - GET /pre_login
+[2016-06-06 14:47:36.339] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:47:36.359] [INFO] normal - POST /login
+[2016-06-06 14:47:36.517] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:47:37.124] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:48:11.173] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:48:11.174] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:48:13.090] [INFO] normal - GET /pre_login
+[2016-06-06 14:48:13.297] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:48:13.318] [INFO] normal - POST /login
+[2016-06-06 14:48:13.485] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:48:13.656] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 14:48:57.271] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 14:48:57.273] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 14:48:59.219] [INFO] normal - GET /pre_login
+[2016-06-06 14:48:59.414] [DEBUG] normal - User stefan has logined
+[2016-06-06 14:48:59.423] [INFO] normal - POST /login
+[2016-06-06 14:48:59.583] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 14:48:59.752] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:02:34.904] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:02:34.905] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:02:35.970] [INFO] normal - GET /pre_login
+[2016-06-06 15:02:36.169] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:02:36.197] [INFO] normal - POST /login
+[2016-06-06 15:02:36.347] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:02:36.514] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:02:36.680] [DEBUG] normal - publish_vote 15successfully
+[2016-06-06 15:02:36.681] [INFO] normal - POST /publish_vote
+[2016-06-06 15:03:47.147] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:03:47.148] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:03:48.028] [INFO] normal - GET /pre_login
+[2016-06-06 15:03:48.217] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:03:48.227] [INFO] normal - POST /login
+[2016-06-06 15:03:48.389] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:03:48.560] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:03:48.724] [DEBUG] normal - publish_vote 15 successfully
+[2016-06-06 15:03:48.725] [INFO] normal - POST /publish_vote
+[2016-06-06 15:04:20.719] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:04:20.721] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:04:21.474] [INFO] normal - GET /pre_login
+[2016-06-06 15:04:21.667] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:04:21.683] [INFO] normal - POST /login
+[2016-06-06 15:04:21.839] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:04:22.007] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:04:22.173] [DEBUG] normal - publish_vote 15 successfully
+[2016-06-06 15:04:22.174] [INFO] normal - POST /publish_vote
+[2016-06-06 15:04:39.205] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:04:39.207] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:04:39.974] [INFO] normal - GET /pre_login
+[2016-06-06 15:04:40.168] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:04:40.175] [INFO] normal - POST /login
+[2016-06-06 15:04:40.336] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:04:40.502] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:04:40.668] [ERROR] normal - The vote has been published before.
+[2016-06-06 15:04:40.673] [INFO] normal - POST /publish_vote
+[2016-06-06 15:08:13.993] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:08:13.994] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:08:14.925] [INFO] normal - GET /pre_login
+[2016-06-06 15:08:15.120] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:08:15.128] [INFO] normal - POST /login
+[2016-06-06 15:08:15.288] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:08:15.456] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:15:35.586] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:15:35.588] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:15:38.665] [INFO] normal - GET /pre_login
+[2016-06-06 15:15:38.903] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:15:38.917] [INFO] normal - POST /login
+[2016-06-06 15:15:39.080] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:15:39.253] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:16:23.436] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:16:23.438] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:16:24.758] [INFO] normal - GET /pre_login
+[2016-06-06 15:16:24.953] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:16:24.961] [INFO] normal - POST /login
+[2016-06-06 15:16:25.121] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:16:25.288] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:16:39.341] [INFO] normal - GET /pre_login
+[2016-06-06 15:16:39.560] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:16:39.566] [INFO] normal - POST /login
+[2016-06-06 15:16:39.728] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:16:39.898] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:17:16.117] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:17:16.119] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:17:17.417] [INFO] normal - GET /pre_login
+[2016-06-06 15:17:17.619] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:17:17.631] [INFO] normal - POST /login
+[2016-06-06 15:17:17.788] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:17:17.963] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:19:12.800] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:19:12.802] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:19:15.875] [INFO] normal - GET /pre_login
+[2016-06-06 15:19:16.073] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:19:16.087] [INFO] normal - POST /login
+[2016-06-06 15:19:16.241] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:19:16.418] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:20:31.005] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:20:31.007] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:20:37.371] [INFO] normal - GET /pre_login
+[2016-06-06 15:20:37.559] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:20:37.568] [INFO] normal - POST /login
+[2016-06-06 15:20:37.727] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:20:37.895] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:21:33.528] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:21:33.530] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:22:02.077] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:22:02.079] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:22:20.391] [INFO] normal - GET /pre_login
+[2016-06-06 15:22:20.590] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:22:20.605] [INFO] normal - POST /login
+[2016-06-06 15:22:20.758] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:22:20.929] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:23:30.808] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:23:30.810] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:23:43.127] [INFO] normal - GET /pre_login
+[2016-06-06 15:23:43.320] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:23:43.332] [INFO] normal - POST /login
+[2016-06-06 15:23:43.489] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:23:43.656] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:23:43.666] [DEBUG] normal - ChildProcess {
+  domain: null,
+  _events: 
+   { close: [Function: exithandler],
+     error: [Function: errorhandler] },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  _closesNeeded: 3,
+  _closesGot: 0,
+  connected: false,
+  signalCode: null,
+  exitCode: null,
+  killed: false,
+  spawnfile: '/bin/sh',
+  _handle: Process { owner: [Circular], onexit: [Function], pid: 52172 },
+  spawnargs: 
+   [ '/bin/sh',
+     '-c',
+     'node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10000 1 6 ' ],
+  pid: 52172,
+  stdin: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 19,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd] },
+     _eventsCount: 3,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdout: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 21,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stderr: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 23,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdio: 
+   [ Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: false,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: true,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' } ] }
+[2016-06-06 15:23:43.690] [DEBUG] normal - ChildProcess {
+  domain: null,
+  _events: 
+   { close: [Function: exithandler],
+     error: [Function: errorhandler] },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  _closesNeeded: 3,
+  _closesGot: 0,
+  connected: false,
+  signalCode: null,
+  exitCode: null,
+  killed: false,
+  spawnfile: '/bin/sh',
+  _handle: Process { owner: [Circular], onexit: [Function], pid: 52173 },
+  spawnargs: 
+   [ '/bin/sh',
+     '-c',
+     'node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10001 2 123 ' ],
+  pid: 52173,
+  stdin: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 20,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd] },
+     _eventsCount: 3,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdout: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 24,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stderr: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 26,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdio: 
+   [ Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: false,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: true,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' } ] }
+[2016-06-06 15:23:43.725] [DEBUG] normal - ChildProcess {
+  domain: null,
+  _events: 
+   { close: [Function: exithandler],
+     error: [Function: errorhandler] },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  _closesNeeded: 3,
+  _closesGot: 0,
+  connected: false,
+  signalCode: null,
+  exitCode: null,
+  killed: false,
+  spawnfile: '/bin/sh',
+  _handle: Process { owner: [Circular], onexit: [Function], pid: 52174 },
+  spawnargs: 
+   [ '/bin/sh',
+     '-c',
+     'node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10002 3 345 ' ],
+  pid: 52174,
+  stdin: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 22,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd] },
+     _eventsCount: 3,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdout: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 27,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stderr: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 29,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdio: 
+   [ Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: false,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: true,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' } ] }
+[2016-06-06 15:23:43.748] [DEBUG] normal - ChildProcess {
+  domain: null,
+  _events: 
+   { close: [Function: exithandler],
+     error: [Function: errorhandler] },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  _closesNeeded: 3,
+  _closesGot: 0,
+  connected: false,
+  signalCode: null,
+  exitCode: null,
+  killed: false,
+  spawnfile: '/bin/sh',
+  _handle: Process { owner: [Circular], onexit: [Function], pid: 52175 },
+  spawnargs: 
+   [ '/bin/sh',
+     '-c',
+     'node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10003 4 45 main' ],
+  pid: 52175,
+  stdin: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 25,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd] },
+     _eventsCount: 3,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdout: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 30,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stderr: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 32,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdio: 
+   [ Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: false,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: true,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' } ] }
+[2016-06-06 15:23:43.788] [DEBUG] normal - ChildProcess {
+  domain: null,
+  _events: 
+   { close: [Function: exithandler],
+     error: [Function: errorhandler] },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  _closesNeeded: 3,
+  _closesGot: 0,
+  connected: false,
+  signalCode: null,
+  exitCode: null,
+  killed: false,
+  spawnfile: '/bin/sh',
+  _handle: Process { owner: [Circular], onexit: [Function], pid: 52176 },
+  spawnargs: 
+   [ '/bin/sh',
+     '-c',
+     'node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10004 5 12 ' ],
+  pid: 52176,
+  stdin: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 28,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd] },
+     _eventsCount: 3,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdout: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 33,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stderr: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 35,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdio: 
+   [ Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: false,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: true,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' } ] }
+[2016-06-06 15:25:59.641] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:25:59.642] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 6, sp_id: 2, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 7, sp_id: 2, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 8, sp_id: 2, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 9, sp_id: 2, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 10, sp_id: 2, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:26:01.869] [INFO] normal - GET /pre_login
+[2016-06-06 15:26:02.109] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:26:02.115] [INFO] normal - POST /login
+[2016-06-06 15:26:02.276] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:26:02.448] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:26:02.457] [DEBUG] normal - ChildProcess {
+  domain: null,
+  _events: 
+   { close: [Function: exithandler],
+     error: [Function: errorhandler] },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  _closesNeeded: 3,
+  _closesGot: 0,
+  connected: false,
+  signalCode: null,
+  exitCode: null,
+  killed: false,
+  spawnfile: '/bin/sh',
+  _handle: Process { owner: [Circular], onexit: [Function], pid: 52342 },
+  spawnargs: 
+   [ '/bin/sh',
+     '-c',
+     'node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10000 1 6 main' ],
+  pid: 52342,
+  stdin: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 19,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd] },
+     _eventsCount: 3,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdout: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 21,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stderr: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 23,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdio: 
+   [ Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: false,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: true,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' } ] }
+[2016-06-06 15:26:02.479] [DEBUG] normal - ChildProcess {
+  domain: null,
+  _events: 
+   { close: [Function: exithandler],
+     error: [Function: errorhandler] },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  _closesNeeded: 3,
+  _closesGot: 0,
+  connected: false,
+  signalCode: null,
+  exitCode: null,
+  killed: false,
+  spawnfile: '/bin/sh',
+  _handle: Process { owner: [Circular], onexit: [Function], pid: 52343 },
+  spawnargs: 
+   [ '/bin/sh',
+     '-c',
+     'node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10001 2 123 ' ],
+  pid: 52343,
+  stdin: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 20,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd] },
+     _eventsCount: 3,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdout: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 24,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stderr: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 26,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdio: 
+   [ Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: false,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: true,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' } ] }
+[2016-06-06 15:26:02.498] [DEBUG] normal - ChildProcess {
+  domain: null,
+  _events: 
+   { close: [Function: exithandler],
+     error: [Function: errorhandler] },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  _closesNeeded: 3,
+  _closesGot: 0,
+  connected: false,
+  signalCode: null,
+  exitCode: null,
+  killed: false,
+  spawnfile: '/bin/sh',
+  _handle: Process { owner: [Circular], onexit: [Function], pid: 52344 },
+  spawnargs: 
+   [ '/bin/sh',
+     '-c',
+     'node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10002 3 345 ' ],
+  pid: 52344,
+  stdin: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 22,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd] },
+     _eventsCount: 3,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdout: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 27,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stderr: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 29,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdio: 
+   [ Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: false,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: true,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' } ] }
+[2016-06-06 15:26:02.518] [DEBUG] normal - ChildProcess {
+  domain: null,
+  _events: 
+   { close: [Function: exithandler],
+     error: [Function: errorhandler] },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  _closesNeeded: 3,
+  _closesGot: 0,
+  connected: false,
+  signalCode: null,
+  exitCode: null,
+  killed: false,
+  spawnfile: '/bin/sh',
+  _handle: Process { owner: [Circular], onexit: [Function], pid: 52345 },
+  spawnargs: 
+   [ '/bin/sh',
+     '-c',
+     'node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10003 4 45 ' ],
+  pid: 52345,
+  stdin: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 25,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd] },
+     _eventsCount: 3,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdout: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 30,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stderr: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 32,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdio: 
+   [ Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: false,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: true,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' } ] }
+[2016-06-06 15:26:02.574] [DEBUG] normal - ChildProcess {
+  domain: null,
+  _events: 
+   { close: [Function: exithandler],
+     error: [Function: errorhandler] },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  _closesNeeded: 3,
+  _closesGot: 0,
+  connected: false,
+  signalCode: null,
+  exitCode: null,
+  killed: false,
+  spawnfile: '/bin/sh',
+  _handle: Process { owner: [Circular], onexit: [Function], pid: 52346 },
+  spawnargs: 
+   [ '/bin/sh',
+     '-c',
+     'node /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Tally-Server/server.js 10004 5 12 ' ],
+  pid: 52346,
+  stdin: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 28,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd] },
+     _eventsCount: 3,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdout: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 33,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stderr: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      Pipe {
+        _externalStream: {},
+        fd: 35,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8',
+        resumeScheduled: true },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        close: [Function],
+        data: [Object] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: false,
+     allowHalfOpen: false,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _writev: null,
+     _pendingData: null,
+     _pendingEncoding: '' },
+  stdio: 
+   [ Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: false,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 3,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: true,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' },
+     Socket {
+       _connecting: false,
+       _hadError: false,
+       _handle: [Object],
+       _parent: null,
+       _host: null,
+       _readableState: [Object],
+       readable: true,
+       domain: null,
+       _events: [Object],
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       _writableState: [Object],
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: false,
+       bytesRead: 0,
+       _bytesDispatched: 0,
+       _sockname: null,
+       _writev: null,
+       _pendingData: null,
+       _pendingEncoding: '' } ] }
+[2016-06-06 15:50:22.630] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:50:22.632] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 16, sp_id: 5, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 17, sp_id: 5, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 18, sp_id: 5, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 19, sp_id: 5, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 20, sp_id: 5, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:50:27.858] [INFO] normal - GET /pre_login
+[2016-06-06 15:50:28.050] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:50:28.066] [INFO] normal - POST /login
+[2016-06-06 15:50:28.223] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:50:28.396] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:54:06.917] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:54:06.919] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 16, sp_id: 5, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 17, sp_id: 5, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 18, sp_id: 5, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 19, sp_id: 5, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 20, sp_id: 5, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:54:47.694] [INFO] normal - GET /pre_login
+[2016-06-06 15:54:47.889] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:54:47.898] [INFO] normal - POST /login
+[2016-06-06 15:54:48.059] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:54:48.229] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:57:37.759] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:57:37.761] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 16, sp_id: 5, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 17, sp_id: 5, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 18, sp_id: 5, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 19, sp_id: 5, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 20, sp_id: 5, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:57:39.687] [INFO] normal - GET /pre_login
+[2016-06-06 15:57:39.892] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:57:39.912] [INFO] normal - POST /login
+[2016-06-06 15:57:40.065] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:57:40.232] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:57:40.262] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 15:58:49.509] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 15:58:49.511] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 16, sp_id: 5, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 17, sp_id: 5, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 18, sp_id: 5, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 19, sp_id: 5, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 20, sp_id: 5, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 15:58:51.373] [INFO] normal - GET /pre_login
+[2016-06-06 15:58:51.576] [DEBUG] normal - User stefan has logined
+[2016-06-06 15:58:51.589] [INFO] normal - POST /login
+[2016-06-06 15:58:51.748] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 15:58:51.915] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 15:58:51.944] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 16:00:26.614] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 16:00:26.615] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 16, sp_id: 5, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 17, sp_id: 5, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 18, sp_id: 5, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 19, sp_id: 5, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 20, sp_id: 5, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 16:00:27.187] [INFO] normal - GET /pre_login
+[2016-06-06 16:00:27.384] [DEBUG] normal - User stefan has logined
+[2016-06-06 16:00:27.397] [INFO] normal - POST /login
+[2016-06-06 16:00:27.553] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 16:00:27.719] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 16:00:27.754] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 16:02:17.637] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 16:02:17.639] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 16, sp_id: 5, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 17, sp_id: 5, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 18, sp_id: 5, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 19, sp_id: 5, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 20, sp_id: 5, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 16:02:18.633] [INFO] normal - GET /pre_login
+[2016-06-06 16:02:18.859] [DEBUG] normal - User stefan has logined
+[2016-06-06 16:02:18.875] [INFO] normal - POST /login
+[2016-06-06 16:02:19.033] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 16:02:19.200] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 16:02:19.237] [INFO] normal - GET /launch_tally_servers
+[2016-06-06 16:12:44.736] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 16:12:44.739] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 16, sp_id: 5, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 17, sp_id: 5, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 18, sp_id: 5, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 19, sp_id: 5, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 20, sp_id: 5, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 16:12:45.812] [INFO] normal - GET /pre_login
+[2016-06-06 16:12:46.009] [DEBUG] normal - User stefan has logined
+[2016-06-06 16:12:46.024] [INFO] normal - POST /login
+[2016-06-06 16:12:46.179] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 16:12:46.347] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 16:14:02.526] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 16:14:02.528] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 16, sp_id: 5, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 17, sp_id: 5, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 18, sp_id: 5, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 19, sp_id: 5, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 20, sp_id: 5, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 16:14:04.218] [INFO] normal - GET /pre_login
+[2016-06-06 16:14:04.409] [DEBUG] normal - User stefan has logined
+[2016-06-06 16:14:04.415] [INFO] normal - POST /login
+[2016-06-06 16:14:04.578] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 16:14:04.744] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 16:14:04.909] [ERROR] normal - Vote 20 is not exist.
+[2016-06-06 16:14:04.911] [INFO] normal - GET /get_vote_m
+[2016-06-06 16:40:51.086] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 16:40:51.088] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 16, sp_id: 5, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 17, sp_id: 5, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 18, sp_id: 5, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 19, sp_id: 5, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 20, sp_id: 5, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 16:40:52.129] [INFO] normal - GET /pre_login
+[2016-06-06 16:40:52.363] [DEBUG] normal - User stefan has logined
+[2016-06-06 16:40:52.369] [INFO] normal - POST /login
+[2016-06-06 16:40:52.531] [DEBUG] normal - update_token for stefan success.
+[2016-06-06 16:40:52.698] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-06 16:40:53.691] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-06 16:40:53.693] [INFO] normal - POST /propose_vote
+[2016-06-06 17:26:50.827] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 17:26:50.829] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 16, sp_id: 5, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 17, sp_id: 5, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 18, sp_id: 5, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 19, sp_id: 5, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 20, sp_id: 5, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 17:27:16.960] [INFO] normal - GET /pre_login
+[2016-06-06 17:27:17.156] [INFO] normal - POST /login
+[2016-06-06 17:29:22.420] [INFO] normal - GET /pre_login
+[2016-06-06 17:29:22.629] [DEBUG] normal - User difan.chen has logined
+[2016-06-06 17:29:22.634] [INFO] normal - POST /login
+[2016-06-06 17:29:22.798] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-06 17:29:22.964] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-06 17:29:23.129] [ERROR] normal - Vote 10 is not exist.
+[2016-06-06 17:29:23.131] [INFO] normal - GET /get_vote
+[2016-06-06 19:35:00.142] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 19:35:00.143] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 16, sp_id: 5, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 17, sp_id: 5, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 18, sp_id: 5, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 19, sp_id: 5, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 20, sp_id: 5, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 19:35:23.278] [INFO] normal - GET /pre_login
+[2016-06-06 19:35:23.509] [DEBUG] normal - User difan.chen has logined
+[2016-06-06 19:35:23.524] [INFO] normal - POST /login
+[2016-06-06 19:35:23.685] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-06 19:35:23.851] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-06 19:35:24.365] [DEBUG] normal - get_vote_list successfully
+[2016-06-06 19:35:24.366] [INFO] normal - GET /get_vote
+[2016-06-06 19:35:40.133] [INFO] normal - GET /pre_login
+[2016-06-06 19:35:40.346] [DEBUG] normal - User difan.chen has logined
+[2016-06-06 19:35:40.353] [INFO] normal - POST /login
+[2016-06-06 19:35:40.513] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-06 19:35:40.679] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-06 19:35:41.176] [ERROR] normal - Vote 18 is not exist.
+[2016-06-06 19:35:41.177] [INFO] normal - GET /get_vote
+[2016-06-06 19:37:37.240] [DEBUG] normal - load_sys_params successful.
+[2016-06-06 19:37:37.241] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 8,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 16, sp_id: 5, tally_seq: 1, secret: 6 },
+     RowDataPacket { ks_id: 17, sp_id: 5, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 18, sp_id: 5, tally_seq: 3, secret: 345 },
+     RowDataPacket { ks_id: 19, sp_id: 5, tally_seq: 4, secret: 45 },
+     RowDataPacket { ks_id: 20, sp_id: 5, tally_seq: 5, secret: 12 } ] }
+[2016-06-06 19:37:38.234] [INFO] normal - GET /pre_login
+[2016-06-06 19:37:38.422] [DEBUG] normal - User difan.chen has logined
+[2016-06-06 19:37:38.446] [INFO] normal - POST /login
+[2016-06-06 19:37:38.595] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-06 19:37:38.762] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-06 19:37:39.257] [DEBUG] normal - get_vote_list successfully
+[2016-06-06 19:37:39.259] [INFO] normal - GET /get_vote

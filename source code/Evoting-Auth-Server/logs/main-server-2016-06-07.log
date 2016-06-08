@@ -1,0 +1,417 @@
+[2016-06-07 15:59:42.866] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 15:59:42.869] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:00:00.827] [INFO] normal - GET /pre_login
+[2016-06-07 16:00:01.016] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:00:01.022] [INFO] normal - POST /login
+[2016-06-07 16:00:01.282] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:00:01.453] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:00:01.466] [DEBUG] normal - main tally server is tally_3
+[2016-06-07 16:00:52.487] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:00:52.488] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:00:54.664] [INFO] normal - GET /pre_login
+[2016-06-07 16:00:54.860] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:00:54.870] [INFO] normal - POST /login
+[2016-06-07 16:00:55.033] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:00:55.201] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:00:55.228] [DEBUG] normal - main tally server is tally_5
+[2016-06-07 16:00:55.288] [INFO] normal - GET /launch_tally_servers
+[2016-06-07 16:00:55.322] [DEBUG] normal - Notify main tally read jobs fail.
+[2016-06-07 16:01:16.953] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:01:16.954] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:01:21.387] [INFO] normal - GET /pre_login
+[2016-06-07 16:01:21.590] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:01:21.603] [INFO] normal - POST /login
+[2016-06-07 16:01:21.777] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:01:21.945] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:01:21.946] [DEBUG] normal - main tally server is tally_1
+[2016-06-07 16:01:22.006] [INFO] normal - GET /launch_tally_servers
+[2016-06-07 16:01:22.023] [DEBUG] normal - Notify main tally read jobs fail.
+[2016-06-07 16:02:00.751] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:02:00.752] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:02:48.016] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:02:48.017] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:02:51.514] [INFO] normal - GET /pre_login
+[2016-06-07 16:02:51.714] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:02:51.727] [INFO] normal - POST /login
+[2016-06-07 16:02:51.901] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:02:52.072] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:02:52.085] [DEBUG] normal - main tally server is tally_4
+[2016-06-07 16:02:52.125] [INFO] normal - GET /launch_tally_servers
+[2016-06-07 16:02:52.132] [DEBUG] normal - Notify main tally read jobs fail.
+[2016-06-07 16:03:40.639] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:03:40.640] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:03:42.686] [INFO] normal - GET /pre_login
+[2016-06-07 16:03:42.885] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:03:42.900] [INFO] normal - POST /login
+[2016-06-07 16:03:43.070] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:03:43.241] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:03:43.256] [DEBUG] normal - main tally server is tally_3
+[2016-06-07 16:03:43.269] [INFO] normal - GET /launch_tally_servers
+[2016-06-07 16:04:48.205] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:04:48.207] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:04:50.047] [INFO] normal - GET /pre_login
+[2016-06-07 16:04:50.260] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:04:50.275] [INFO] normal - POST /login
+[2016-06-07 16:04:50.436] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:04:50.606] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:04:50.627] [DEBUG] normal - main tally server is tally_5
+[2016-06-07 16:04:50.686] [INFO] normal - GET /launch_tally_servers
+[2016-06-07 16:04:50.726] [DEBUG] normal - Notify main tally read jobs fail.
+[2016-06-07 16:05:30.531] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:05:30.532] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:05:35.501] [INFO] normal - GET /pre_login
+[2016-06-07 16:05:35.802] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:05:35.821] [INFO] normal - POST /login
+[2016-06-07 16:05:35.977] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:05:36.143] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:08:05.185] [INFO] normal - GET /pre_login
+[2016-06-07 16:08:08.380] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:08:08.380] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:08:08.817] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:08:08.824] [INFO] normal - POST /login
+[2016-06-07 16:08:09.042] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:08:09.217] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:08:09.227] [DEBUG] normal - main tally server is tally_2
+[2016-06-07 16:08:09.244] [INFO] normal - GET /launch_tally_servers
+[2016-06-07 16:10:42.347] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:10:42.348] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:10:46.786] [INFO] normal - GET /pre_login
+[2016-06-07 16:10:46.981] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:10:46.988] [INFO] normal - POST /login
+[2016-06-07 16:10:47.156] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:10:47.323] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:10:47.335] [DEBUG] normal - main tally server is tally_3
+[2016-06-07 16:10:47.347] [INFO] normal - GET /launch_tally_servers
+[2016-06-07 16:12:11.937] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:12:11.938] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:12:14.080] [INFO] normal - GET /pre_login
+[2016-06-07 16:12:14.283] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:12:14.296] [INFO] normal - POST /login
+[2016-06-07 16:12:14.451] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:12:14.627] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:12:14.638] [DEBUG] normal - main tally server is tally_2
+[2016-06-07 16:12:14.708] [INFO] normal - GET /launch_tally_servers
+[2016-06-07 16:12:45.087] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:12:45.088] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:12:46.548] [INFO] normal - GET /pre_login
+[2016-06-07 16:12:46.738] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:12:46.744] [INFO] normal - POST /login
+[2016-06-07 16:12:46.908] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:12:47.075] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:12:47.088] [DEBUG] normal - main tally server is tally_4
+[2016-06-07 16:12:47.097] [INFO] normal - GET /launch_tally_servers
+[2016-06-07 16:14:07.254] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:14:07.256] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:14:10.207] [INFO] normal - GET /pre_login
+[2016-06-07 16:14:10.406] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:14:10.412] [INFO] normal - POST /login
+[2016-06-07 16:14:10.593] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:14:10.780] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:14:10.791] [DEBUG] normal - main tally server is tally_3
+[2016-06-07 16:14:10.803] [INFO] normal - GET /launch_tally_servers
+[2016-06-07 16:14:42.535] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:14:42.537] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:14:43.777] [INFO] normal - GET /pre_login
+[2016-06-07 16:14:44.050] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:14:44.058] [INFO] normal - POST /login
+[2016-06-07 16:14:44.229] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:14:44.396] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:14:44.420] [DEBUG] normal - main tally server is tally_5
+[2016-06-07 16:14:44.445] [INFO] normal - GET /launch_tally_servers
+[2016-06-07 16:16:45.806] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:16:45.808] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:16:46.655] [INFO] normal - GET /pre_login
+[2016-06-07 16:16:46.852] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:16:46.871] [INFO] normal - POST /login
+[2016-06-07 16:16:47.026] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:16:47.195] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:16:47.211] [DEBUG] normal - main tally server is tally_4
+[2016-06-07 16:16:47.221] [INFO] normal - GET /launch_tally_servers
+[2016-06-07 16:18:39.944] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 16:18:39.946] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 16:18:42.433] [INFO] normal - GET /pre_login
+[2016-06-07 16:18:42.625] [DEBUG] normal - User stefan has logined
+[2016-06-07 16:18:42.635] [INFO] normal - POST /login
+[2016-06-07 16:18:42.795] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 16:18:42.963] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 16:18:42.983] [DEBUG] normal - main tally server is tally_4
+[2016-06-07 16:18:43.005] [INFO] normal - GET /launch_tally_servers
+[2016-06-07 16:18:48.462] [DEBUG] normal - Notify main tally read jobs successfully.
+[2016-06-07 19:18:31.077] [INFO] normal - GET /pre_login
+[2016-06-07 19:18:31.110] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 19:18:31.111] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 19:18:31.273] [DEBUG] normal - User difan.chen has logined
+[2016-06-07 19:18:31.280] [INFO] normal - POST /login
+[2016-06-07 19:18:31.447] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-07 19:18:31.616] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-07 19:18:31.782] [ERROR] normal - User difan.chen is not eligible to vote 18
+[2016-06-07 19:18:31.784] [INFO] normal - GET /is_user_eligible
+[2016-06-07 19:20:54.954] [INFO] normal - GET /pre_login
+[2016-06-07 19:20:55.252] [DEBUG] normal - User difan.chen has logined
+[2016-06-07 19:20:55.258] [INFO] normal - POST /login
+[2016-06-07 19:20:55.419] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-07 19:20:55.587] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-07 19:20:55.752] [ERROR] normal - User difan.chen is not eligible to vote 18
+[2016-06-07 19:20:55.754] [INFO] normal - GET /is_user_eligible
+[2016-06-07 19:21:52.865] [INFO] normal - GET /pre_login
+[2016-06-07 19:21:58.597] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 19:21:58.597] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 19:21:58.925] [DEBUG] normal - User difan.chen has logined
+[2016-06-07 19:21:58.931] [INFO] normal - POST /login
+[2016-06-07 19:21:59.340] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-07 19:21:59.508] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-07 19:21:59.757] [DEBUG] normal - []
+[2016-06-07 19:21:59.758] [ERROR] normal - User difan.chen is not eligible to vote 18
+[2016-06-07 19:21:59.761] [INFO] normal - GET /is_user_eligible
+[2016-06-07 19:23:02.170] [INFO] normal - GET /pre_login
+[2016-06-07 19:23:02.647] [DEBUG] normal - User difan.chen has logined
+[2016-06-07 19:23:02.652] [INFO] normal - POST /login
+[2016-06-07 19:23:02.822] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-07 19:23:02.988] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-07 19:23:03.262] [DEBUG] normal - is_user_eligible successfully
+[2016-06-07 19:23:03.263] [INFO] normal - GET /is_user_eligible
+[2016-06-07 20:04:30.725] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 20:04:30.727] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 20:05:01.953] [INFO] normal - GET /pre_login
+[2016-06-07 20:05:02.414] [DEBUG] normal - User stefan has logined
+[2016-06-07 20:05:02.423] [INFO] normal - POST /login
+[2016-06-07 20:05:02.816] [DEBUG] normal - update_token for stefan success.
+[2016-06-07 20:05:02.982] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-07 20:05:04.278] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-07 20:05:05.104] [INFO] normal - POST /propose_vote
+[2016-06-07 21:06:49.776] [DEBUG] normal - load_sys_params successful.
+[2016-06-07 21:06:49.778] [DEBUG] normal - { p: 8831,
+  g: 859,
+  h: 4555,
+  gn: 3528,
+  q: 883,
+  sp_id: 15,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 90, sp_id: 15, tally_seq: 5, secret: 836 },
+     RowDataPacket { ks_id: 89, sp_id: 15, tally_seq: 4, secret: 532 },
+     RowDataPacket { ks_id: 88, sp_id: 15, tally_seq: 3, secret: 228 },
+     RowDataPacket { ks_id: 87, sp_id: 15, tally_seq: 2, secret: 807 },
+     RowDataPacket { ks_id: 86, sp_id: 15, tally_seq: 1, secret: 503 } ] }
+[2016-06-07 21:07:06.898] [INFO] normal - GET /pre_login
+[2016-06-07 21:07:07.107] [DEBUG] normal - User difan.chen has logined
+[2016-06-07 21:07:07.125] [INFO] normal - POST /login
+[2016-06-07 21:07:07.284] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-07 21:07:07.450] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-07 21:07:07.968] [DEBUG] normal - get_vote_list successfully
+[2016-06-07 21:07:07.973] [INFO] normal - GET /get_vote
+[2016-06-07 21:07:57.384] [INFO] normal - GET /pre_login
+[2016-06-07 21:07:57.601] [DEBUG] normal - User difan.chen has logined
+[2016-06-07 21:07:57.607] [INFO] normal - POST /login
+[2016-06-07 21:07:57.768] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-07 21:07:57.934] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-07 21:07:58.104] [DEBUG] normal - get_vote_list successfully
+[2016-06-07 21:07:58.106] [INFO] normal - GET /get_vote_list

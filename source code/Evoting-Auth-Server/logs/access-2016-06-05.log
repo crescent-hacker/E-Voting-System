@@ -1,0 +1,716 @@
+[2016-06-05 00:20:26.021] [INFO] normal - GET /pre_login
+[2016-06-05 00:20:26.245] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 00:20:26.253] [INFO] normal - POST /login
+[2016-06-05 00:20:26.451] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 00:20:26.452] [INFO] normal - {}
+[2016-06-05 00:20:26.453] [INFO] normal - POST /get_vote_list
+[2016-06-05 00:20:53.801] [INFO] normal - GET /pre_login
+[2016-06-05 00:20:54.024] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 00:20:54.027] [INFO] normal - POST /login
+[2016-06-05 00:20:54.222] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 00:20:54.223] [INFO] normal - {}
+[2016-06-05 00:20:54.226] [INFO] normal - POST /get_vote_list
+[2016-06-05 00:34:31.355] [INFO] normal - GET /pre_login
+[2016-06-05 00:34:31.577] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 00:34:31.585] [INFO] normal - POST /login
+[2016-06-05 00:34:31.774] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 00:34:32.160] [DEBUG] normal - modify_pwd difan.chen successfully; pwd is KQJv9+4t0yDYKVybthxCtJUzNiD9te5fueffeVigFM4=
+[2016-06-05 00:34:32.185] [INFO] normal - POST /modify_pwd
+[2016-06-05 00:51:25.293] [INFO] normal - GET /pre_login
+[2016-06-05 00:51:25.512] [DEBUG] normal - User stefan has logined
+[2016-06-05 00:51:25.518] [INFO] normal - POST /login
+[2016-06-05 00:51:25.706] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 00:51:25.724] [DEBUG] normal - { title: 'let\'s voting',
+  content: 'this is a test vote',
+  deadline: '2016/06/19 14:03:56',
+  publish_date: '2016/06/05 14:03:56',
+  candidates: [ { candname: 'c1' }, { candname: 'c2' }, { candname: 'c3' } ],
+  eligible_voters: [ { username: 'laolv' }, { username: 'difan.chen' } ] }
+[2016-06-05 00:51:25.725] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 00:51:25.727] [INFO] normal - POST /propose_vote
+[2016-06-05 00:51:56.921] [INFO] normal - GET /pre_login
+[2016-06-05 00:51:57.141] [DEBUG] normal - User stefan has logined
+[2016-06-05 00:51:57.144] [INFO] normal - POST /login
+[2016-06-05 00:51:57.351] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 00:51:57.352] [DEBUG] normal - { title: 'let\'s voting',
+  content: 'this is a test vote',
+  deadline: '2016/06/19 14:03:56',
+  publish_date: '2016/06/05 14:03:56',
+  candidates: [ { candname: 'c1' }, { candname: 'c2' }, { candname: 'c3' } ],
+  eligible_voters: [ { username: 'laolv' }, { username: 'difan.chen' } ] }
+[2016-06-05 00:51:57.355] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 00:51:57.358] [INFO] normal - POST /propose_vote
+[2016-06-05 00:52:02.299] [INFO] normal - GET /pre_login
+[2016-06-05 00:52:02.511] [DEBUG] normal - User stefan has logined
+[2016-06-05 00:52:02.528] [INFO] normal - POST /login
+[2016-06-05 00:52:02.723] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 00:52:02.723] [DEBUG] normal - { title: 'let\'s voting',
+  content: 'this is a test vote',
+  deadline: '2016/06/19 14:03:56',
+  publish_date: '2016/06/05 14:03:56',
+  candidates: [ { candname: 'c1' }, { candname: 'c2' }, { candname: 'c3' } ],
+  eligible_voters: [ { username: 'laolv' }, { username: 'difan.chen' } ] }
+[2016-06-05 00:52:02.741] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 00:52:02.743] [INFO] normal - POST /propose_vote
+[2016-06-05 01:00:43.360] [INFO] normal - GET /pre_login
+[2016-06-05 01:00:43.578] [DEBUG] normal - User stefan has logined
+[2016-06-05 01:00:43.585] [INFO] normal - POST /login
+[2016-06-05 01:00:43.777] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 01:00:43.778] [DEBUG] normal - { title: 'let\'s voting',
+  content: 'this is a test vote',
+  deadline: '2016/06/19 14:03:56',
+  publish_date: '2016/06/05 14:03:56',
+  candidates: [ { candname: 'c1' }, { candname: 'c2' }, { candname: 'c3' } ],
+  eligible_voters: [ { username: 'laolv' }, { username: 'difan.chen' } ] }
+[2016-06-05 01:00:43.800] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 01:00:43.802] [INFO] normal - POST /propose_vote
+[2016-06-05 12:34:05.973] [INFO] normal - GET /pre_login
+[2016-06-05 12:34:06.190] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 12:34:06.202] [INFO] normal - POST /login
+[2016-06-05 12:34:06.395] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 12:34:06.761] [DEBUG] normal - modify_pwd difan.chen successfully; pwd is KQJv9+4t0yDYKVybthxCtJUzNiD9te5fueffeVigFM4=
+[2016-06-05 12:34:06.791] [INFO] normal - POST /modify_pwd
+[2016-06-05 12:36:07.554] [INFO] normal - GET /pre_login
+[2016-06-05 12:36:07.774] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 12:36:07.785] [INFO] normal - POST /login
+[2016-06-05 12:36:07.981] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 12:36:07.982] [DEBUG] normal - 这是修改密码的提交请求:[object Object]
+[2016-06-05 12:36:08.345] [DEBUG] normal - modify_pwd difan.chen successfully; pwd is KQJv9+4t0yDYKVybthxCtJUzNiD9te5fueffeVigFM4=
+[2016-06-05 12:36:08.384] [INFO] normal - POST /modify_pwd
+[2016-06-05 12:36:37.215] [INFO] normal - GET /pre_login
+[2016-06-05 12:36:37.459] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 12:36:37.466] [INFO] normal - POST /login
+[2016-06-05 12:36:37.658] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 12:36:37.659] [DEBUG] normal - 这是修改密码的提交请求:
+[2016-06-05 12:36:37.659] [DEBUG] normal - { username: 'difan.chen', password: '123Abc..' }
+[2016-06-05 12:36:38.051] [DEBUG] normal - modify_pwd difan.chen successfully; pwd is KQJv9+4t0yDYKVybthxCtJUzNiD9te5fueffeVigFM4=
+[2016-06-05 12:36:38.075] [INFO] normal - POST /modify_pwd
+[2016-06-05 12:55:05.568] [INFO] normal - GET /pre_login
+[2016-06-05 12:55:05.778] [DEBUG] normal - User stefan has logined
+[2016-06-05 12:55:05.787] [INFO] normal - POST /login
+[2016-06-05 12:55:05.795] [INFO] normal - GET /system_init
+[2016-06-05 12:56:16.797] [INFO] normal - GET /pre_login
+[2016-06-05 12:56:17.015] [DEBUG] normal - User stefan has logined
+[2016-06-05 12:56:17.023] [INFO] normal - POST /login
+[2016-06-05 12:56:17.271] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 12:56:17.280] [INFO] normal - GET /system_init
+[2016-06-05 12:56:35.892] [INFO] normal - GET /pre_login
+[2016-06-05 12:56:36.095] [DEBUG] normal - User stefan has logined
+[2016-06-05 12:56:36.112] [INFO] normal - POST /login
+[2016-06-05 12:56:36.307] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 12:56:50.371] [INFO] normal - GET /pre_login
+[2016-06-05 12:56:50.583] [DEBUG] normal - User stefan has logined
+[2016-06-05 12:56:50.599] [INFO] normal - POST /login
+[2016-06-05 12:56:50.787] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 12:56:50.971] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 12:56:50.971] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 7 }
+[2016-06-05 12:56:50.991] [INFO] normal - GET /system_init
+[2016-06-05 12:58:22.324] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 12:58:22.326] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 7 }
+[2016-06-05 12:58:22.990] [INFO] normal - GET /pre_login
+[2016-06-05 12:58:23.227] [DEBUG] normal - User stefan has logined
+[2016-06-05 12:58:23.232] [INFO] normal - POST /login
+[2016-06-05 12:58:23.421] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 12:58:47.434] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 12:58:47.436] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 7 }
+[2016-06-05 12:58:48.287] [INFO] normal - GET /pre_login
+[2016-06-05 12:58:48.491] [DEBUG] normal - User stefan has logined
+[2016-06-05 12:58:48.502] [INFO] normal - POST /login
+[2016-06-05 12:58:48.690] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 12:59:21.425] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 12:59:21.426] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 7 }
+[2016-06-05 12:59:22.744] [INFO] normal - GET /pre_login
+[2016-06-05 12:59:22.953] [DEBUG] normal - User stefan has logined
+[2016-06-05 12:59:22.961] [INFO] normal - POST /login
+[2016-06-05 12:59:23.152] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 12:59:43.497] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 12:59:43.500] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 7 }
+[2016-06-05 12:59:44.850] [INFO] normal - GET /pre_login
+[2016-06-05 12:59:45.065] [DEBUG] normal - User stefan has logined
+[2016-06-05 12:59:45.076] [INFO] normal - POST /login
+[2016-06-05 12:59:45.284] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 12:59:45.287] [INFO] normal - GET /system_init
+[2016-06-05 12:59:59.302] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 12:59:59.304] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 7 }
+[2016-06-05 13:00:42.180] [ERROR] normal - System has not been initialized yet.
+[2016-06-05 13:00:47.768] [INFO] normal - GET /pre_login
+[2016-06-05 13:00:47.975] [DEBUG] normal - User stefan has logined
+[2016-06-05 13:00:47.985] [INFO] normal - POST /login
+[2016-06-05 13:00:48.184] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 13:00:48.185] [INFO] normal - GET /system_init
+[2016-06-05 13:10:59.811] [INFO] normal - GET /pre_login
+[2016-06-05 13:11:00.035] [DEBUG] normal - User stefan has logined
+[2016-06-05 13:11:00.043] [INFO] normal - POST /login
+[2016-06-05 13:11:00.233] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 13:11:00.414] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 13:11:00.416] [INFO] normal - GET /has_system_init
+[2016-06-05 13:55:12.055] [INFO] normal - GET /pre_login
+[2016-06-05 13:55:12.275] [DEBUG] normal - User stefan has logined
+[2016-06-05 13:55:12.286] [INFO] normal - POST /login
+[2016-06-05 13:55:12.510] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 13:55:12.511] [DEBUG] normal - { title: 'let\'s voting',
+  content: 'this is a test vote',
+  deadline: '2016/06/19 14:03:56',
+  publish_date: '2016/06/05 14:03:56',
+  candidates: [ { candname: 'c1' }, { candname: 'c2' }, { candname: 'c3' } ],
+  eligible_voters: [ { username: 'laolv' }, { username: 'difan.chen' } ] }
+[2016-06-05 13:55:12.530] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 13:55:12.532] [INFO] normal - POST /propose_vote
+[2016-06-05 13:57:20.830] [INFO] normal - GET /pre_login
+[2016-06-05 13:57:21.043] [DEBUG] normal - User stefan has logined
+[2016-06-05 13:57:21.059] [INFO] normal - POST /login
+[2016-06-05 13:57:21.283] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 13:57:21.284] [DEBUG] normal - { title: 'let\'s voting',
+  content: 'this is a test vote',
+  deadline: '2016/06/19 14:03:56',
+  publish_date: '2016/06/05 14:03:56',
+  candidates: [ { candname: 'c1' }, { candname: 'c2' }, { candname: 'c3' } ],
+  eligible_voters: [ { username: 'laolv' }, { username: 'difan.chen' } ] }
+[2016-06-05 13:57:21.300] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 13:57:21.302] [INFO] normal - POST /propose_vote
+[2016-06-05 14:01:40.291] [INFO] normal - GET /pre_login
+[2016-06-05 14:01:40.520] [DEBUG] normal - User stefan has logined
+[2016-06-05 14:01:40.527] [INFO] normal - POST /login
+[2016-06-05 14:01:40.717] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 14:01:40.718] [DEBUG] normal - { title: 'let\'s voting',
+  content: 'this is a test vote',
+  deadline: '2016/06/19 14:03:56',
+  publish_date: '2016/06/05 14:03:56',
+  candidates: [ { candname: 'c1' }, { candname: 'c2' }, { candname: 'c3' } ],
+  eligible_voters: [ { username: 'laolv' }, { username: 'difan.chen' } ] }
+[2016-06-05 14:01:40.736] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 14:01:40.737] [DEBUG] normal - undefined
+[2016-06-05 14:01:40.741] [INFO] normal - POST /propose_vote
+[2016-06-05 14:03:13.811] [INFO] normal - GET /pre_login
+[2016-06-05 14:03:14.018] [DEBUG] normal - User stefan has logined
+[2016-06-05 14:03:14.029] [INFO] normal - POST /login
+[2016-06-05 14:03:14.231] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 14:03:14.232] [DEBUG] normal - { title: 'let\'s voting',
+  content: 'this is a test vote',
+  deadline: '2016/06/19 14:03:56',
+  publish_date: '2016/06/05 14:03:56',
+  candidates: [ { candname: 'c1' }, { candname: 'c2' }, { candname: 'c3' } ],
+  eligible_voters: [ { username: 'laolv' }, { username: 'difan.chen' } ] }
+[2016-06-05 14:03:14.249] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 14:03:14.250] [DEBUG] normal - undefined
+[2016-06-05 14:03:14.251] [INFO] normal - POST /propose_vote
+[2016-06-05 14:03:45.150] [INFO] normal - GET /pre_login
+[2016-06-05 14:03:45.391] [DEBUG] normal - User stefan has logined
+[2016-06-05 14:03:45.399] [INFO] normal - POST /login
+[2016-06-05 14:03:45.693] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 14:03:45.694] [DEBUG] normal - { title: 'let\'s voting',
+  content: 'this is a test vote',
+  deadline: '2016/06/19 14:03:56',
+  publish_date: '2016/06/05 14:03:56',
+  candidates: [ { candname: 'c1' }, { candname: 'c2' }, { candname: 'c3' } ],
+  eligible_voters: [ { username: 'laolv' }, { username: 'difan.chen' } ] }
+[2016-06-05 14:03:45.719] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 14:03:45.719] [DEBUG] normal - fuckundefined
+[2016-06-05 14:03:45.721] [INFO] normal - POST /propose_vote
+[2016-06-05 14:05:54.079] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 14:05:54.519] [INFO] normal - GET /pre_login
+[2016-06-05 14:05:54.742] [DEBUG] normal - User stefan has logined
+[2016-06-05 14:05:54.752] [INFO] normal - POST /login
+[2016-06-05 14:05:54.954] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 14:05:54.956] [DEBUG] normal - { title: 'let\'s voting',
+  content: 'this is a test vote',
+  deadline: '2016/06/19 14:03:56',
+  publish_date: '2016/06/05 14:03:56',
+  candidates: [ { candname: 'c1' }, { candname: 'c2' }, { candname: 'c3' } ],
+  eligible_voters: [ { username: 'laolv' }, { username: 'difan.chen' } ] }
+[2016-06-05 14:05:54.974] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 14:05:54.974] [DEBUG] normal - fuckundefined
+[2016-06-05 14:05:54.975] [INFO] normal - POST /propose_vote
+[2016-06-05 14:09:50.597] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 14:10:14.548] [INFO] normal - GET /pre_login
+[2016-06-05 14:10:14.770] [DEBUG] normal - User stefan has logined
+[2016-06-05 14:10:14.777] [INFO] normal - POST /login
+[2016-06-05 14:10:14.965] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 14:10:15.151] [DEBUG] normal - has_system_init successful.
+[2016-06-05 14:10:15.169] [INFO] normal - GET /has_system_init
+[2016-06-05 14:10:47.587] [INFO] normal - GET /pre_login
+[2016-06-05 14:10:47.815] [DEBUG] normal - User stefan has logined
+[2016-06-05 14:10:47.817] [INFO] normal - POST /login
+[2016-06-05 14:10:48.030] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 14:10:48.032] [DEBUG] normal - { title: 'let\'s voting',
+  content: 'this is a test vote',
+  deadline: '2016/06/19 14:03:56',
+  publish_date: '2016/06/05 14:03:56',
+  candidates: [ { candname: 'c1' }, { candname: 'c2' }, { candname: 'c3' } ],
+  eligible_voters: [ { username: 'laolv' }, { username: 'difan.chen' } ] }
+[2016-06-05 14:10:48.038] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 14:10:48.039] [DEBUG] normal - fuck[object Object]
+[2016-06-05 14:10:48.042] [INFO] normal - POST /propose_vote
+[2016-06-05 14:14:38.182] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 14:14:43.243] [INFO] normal - GET /pre_login
+[2016-06-05 14:14:43.463] [DEBUG] normal - User stefan has logined
+[2016-06-05 14:14:43.469] [INFO] normal - POST /login
+[2016-06-05 14:14:43.661] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 14:14:43.661] [DEBUG] normal - { title: 'let\'s voting',
+  content: 'this is a test vote',
+  deadline: '2016/06/19 14:03:56',
+  publish_date: '2016/06/05 14:03:56',
+  candidates: [ { candname: 'c1' }, { candname: 'c2' }, { candname: 'c3' } ],
+  eligible_voters: [ { username: 'laolv' }, { username: 'difan.chen' } ] }
+[2016-06-05 14:14:43.680] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 14:14:43.683] [INFO] normal - POST /propose_vote
+[2016-06-05 14:14:58.852] [INFO] normal - GET /pre_login
+[2016-06-05 14:14:59.112] [DEBUG] normal - User stefan has logined
+[2016-06-05 14:14:59.115] [INFO] normal - POST /login
+[2016-06-05 14:14:59.317] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 14:14:59.318] [DEBUG] normal - has_system_init successful.
+[2016-06-05 14:14:59.323] [INFO] normal - GET /has_system_init
+[2016-06-05 14:15:16.821] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 14:15:18.980] [INFO] normal - GET /pre_login
+[2016-06-05 14:15:19.240] [DEBUG] normal - User stefan has logined
+[2016-06-05 14:15:19.248] [INFO] normal - POST /login
+[2016-06-05 14:15:19.459] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 14:15:19.459] [DEBUG] normal - has_system_init successful.
+[2016-06-05 14:15:19.461] [INFO] normal - GET /has_system_init
+[2016-06-05 14:15:45.043] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 14:15:45.044] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 7 }
+[2016-06-05 14:15:50.056] [INFO] normal - GET /pre_login
+[2016-06-05 14:15:50.283] [DEBUG] normal - User stefan has logined
+[2016-06-05 14:15:50.290] [INFO] normal - POST /login
+[2016-06-05 14:15:50.492] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 14:15:50.492] [DEBUG] normal - has_system_init successful.
+[2016-06-05 14:15:50.494] [INFO] normal - GET /has_system_init
+[2016-06-05 16:29:34.810] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 16:29:34.811] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 7 }
+[2016-06-05 16:29:35.796] [INFO] normal - GET /pre_login
+[2016-06-05 16:29:36.020] [DEBUG] normal - User stefan has logined
+[2016-06-05 16:29:36.027] [INFO] normal - POST /login
+[2016-06-05 16:29:49.222] [INFO] normal - GET /pre_login
+[2016-06-05 16:29:49.459] [DEBUG] normal - User stefan has logined
+[2016-06-05 16:29:49.461] [INFO] normal - POST /login
+[2016-06-05 16:29:49.654] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 16:29:49.869] [DEBUG] normal - system_init successful.
+[2016-06-05 16:29:49.869] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 16:29:49.871] [INFO] normal - GET /system_init
+[2016-06-05 16:33:27.652] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 16:33:27.654] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 16:33:29.873] [INFO] normal - GET /pre_login
+[2016-06-05 16:33:30.097] [DEBUG] normal - User stefan has logined
+[2016-06-05 16:33:30.103] [INFO] normal - POST /login
+[2016-06-05 16:33:30.328] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 16:33:30.328] [DEBUG] normal - has_system_init successful.
+[2016-06-05 16:33:30.330] [INFO] normal - GET /has_system_init
+[2016-06-05 17:14:44.428] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 17:14:44.431] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 17:14:46.234] [INFO] normal - GET /pre_login
+[2016-06-05 17:14:46.469] [DEBUG] normal - User stefan has logined
+[2016-06-05 17:14:46.477] [INFO] normal - POST /login
+[2016-06-05 17:14:46.683] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 17:14:47.557] [ERROR] normal - { [Error: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1]
+  code: 'ER_WRONG_VALUE_COUNT_ON_ROW',
+  errno: 1136,
+  sqlState: '21S01',
+  index: 0 }
+Error: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+    at Query.Sequence._packetToError (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Sequence.js:48:14)
+    at Query.ErrorPacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Query.js:83:18)
+    at Protocol._parsePacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Parser.js:73:12)
+    at Protocol.write (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/Connection.js:96:28)
+    at emitOne (events.js:78:13)
+    at Socket.emit (events.js:170:7)
+    at readableAddChunk (_stream_readable.js:147:16)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    --------------------
+    at Protocol._enqueue (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Connection.query (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/Connection.js:201:25)
+    at Query._callback (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/app/dao_module/voting_manager_dao.js:65:28)
+    at Query.Sequence.end (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24)
+    at Query._handleFinalResultPacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Query.js:144:8)
+    at Query.EofPacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Query.js:128:8)
+    at Protocol._parsePacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Parser.js:73:12)
+    at Protocol.write (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/Connection.js:96:28)
+[2016-06-05 17:14:47.852] [ERROR] normal - []
+[2016-06-05 17:14:47.854] [INFO] normal - POST /propose_vote
+[2016-06-05 17:15:58.899] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 17:15:58.901] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 17:15:59.411] [INFO] normal - GET /pre_login
+[2016-06-05 17:15:59.628] [DEBUG] normal - User stefan has logined
+[2016-06-05 17:15:59.634] [INFO] normal - POST /login
+[2016-06-05 17:15:59.847] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 17:16:01.051] [DEBUG] normal - propose_vote undefined successfully
+[2016-06-05 17:16:01.052] [INFO] normal - POST /propose_vote
+[2016-06-05 17:17:31.611] [INFO] normal - GET /pre_login
+[2016-06-05 17:17:31.899] [DEBUG] normal - User stefan has logined
+[2016-06-05 17:17:31.901] [INFO] normal - POST /login
+[2016-06-05 17:17:32.111] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 17:17:33.272] [DEBUG] normal - propose_vote undefined successfully
+[2016-06-05 17:17:33.274] [INFO] normal - POST /propose_vote
+[2016-06-05 17:30:50.593] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 17:30:50.594] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 17:30:54.578] [INFO] normal - GET /pre_login
+[2016-06-05 17:30:54.797] [DEBUG] normal - User stefan has logined
+[2016-06-05 17:30:54.803] [INFO] normal - POST /login
+[2016-06-05 17:30:55.008] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 17:30:55.441] [ERROR] normal - { [Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where vote_id = 11' at line 1]
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where vote_id = 11' at line 1
+    at Query.Sequence._packetToError (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Sequence.js:48:14)
+    at Query.ErrorPacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Query.js:83:18)
+    at Protocol._parsePacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Parser.js:73:12)
+    at Protocol.write (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/Connection.js:96:28)
+    at emitOne (events.js:78:13)
+    at Socket.emit (events.js:170:7)
+    at readableAddChunk (_stream_readable.js:147:16)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    --------------------
+    at Protocol._enqueue (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Connection.query (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/Connection.js:201:25)
+    at Query._callback (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/app/dao_module/voting_manager_dao.js:119:20)
+    at Query.Sequence.end (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24)
+    at Query._handleFinalResultPacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Query.js:144:8)
+    at Query.OkPacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/sequences/Query.js:78:10)
+    at Protocol._parsePacket (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Parser.js:73:12)
+    at Protocol.write (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/mysql/lib/Connection.js:96:28)
+[2016-06-05 17:30:55.658] [INFO] normal - POST /delete_vote
+[2016-06-05 17:33:11.663] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 17:33:11.665] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 17:33:11.951] [INFO] normal - GET /pre_login
+[2016-06-05 17:33:12.183] [DEBUG] normal - User stefan has logined
+[2016-06-05 17:33:12.190] [INFO] normal - POST /login
+[2016-06-05 17:33:12.386] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 17:33:13.436] [DEBUG] normal - delete_vote 11 successfully
+[2016-06-05 17:33:13.438] [INFO] normal - POST /delete_vote
+[2016-06-05 17:33:56.868] [INFO] normal - GET /pre_login
+[2016-06-05 17:33:57.087] [DEBUG] normal - User stefan has logined
+[2016-06-05 17:33:57.090] [INFO] normal - POST /login
+[2016-06-05 17:33:57.300] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 17:33:58.418] [DEBUG] normal - delete_vote 12 successfully
+[2016-06-05 17:33:58.420] [INFO] normal - POST /delete_vote
+[2016-06-05 17:35:28.073] [INFO] normal - GET /pre_login
+[2016-06-05 17:35:28.307] [DEBUG] normal - User stefan has logined
+[2016-06-05 17:35:28.309] [INFO] normal - POST /login
+[2016-06-05 17:35:28.515] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 17:35:29.781] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 17:35:29.783] [INFO] normal - POST /propose_vote
+[2016-06-05 17:37:09.147] [INFO] normal - GET /pre_login
+[2016-06-05 17:37:09.395] [DEBUG] normal - User stefan has logined
+[2016-06-05 17:37:09.397] [INFO] normal - POST /login
+[2016-06-05 17:37:09.617] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 17:37:10.839] [DEBUG] normal - delete_vote 13 successfully
+[2016-06-05 17:37:10.841] [INFO] normal - POST /delete_vote
+[2016-06-05 17:37:39.871] [INFO] normal - GET /pre_login
+[2016-06-05 17:37:40.086] [DEBUG] normal - User stefan has logined
+[2016-06-05 17:37:40.088] [INFO] normal - POST /login
+[2016-06-05 17:37:40.355] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 17:37:41.745] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 17:37:41.747] [INFO] normal - POST /propose_vote
+[2016-06-05 17:37:42.552] [INFO] normal - GET /pre_login
+[2016-06-05 17:37:42.790] [DEBUG] normal - User stefan has logined
+[2016-06-05 17:37:42.793] [INFO] normal - POST /login
+[2016-06-05 17:37:42.987] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 17:37:44.313] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 17:37:44.315] [INFO] normal - POST /propose_vote
+[2016-06-05 17:37:45.005] [INFO] normal - GET /pre_login
+[2016-06-05 17:37:45.223] [DEBUG] normal - User stefan has logined
+[2016-06-05 17:37:45.224] [INFO] normal - POST /login
+[2016-06-05 17:37:45.414] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 17:37:46.782] [DEBUG] normal - propose_vote let's voting successfully
+[2016-06-05 17:37:46.783] [INFO] normal - POST /propose_vote
+[2016-06-05 17:52:08.491] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 17:52:08.493] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 17:52:09.199] [INFO] normal - GET /pre_login
+[2016-06-05 17:52:09.435] [DEBUG] normal - User stefan has logined
+[2016-06-05 17:52:09.441] [INFO] normal - POST /login
+[2016-06-05 17:52:09.646] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 17:52:09.842] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 17:52:09.843] [INFO] normal - GET /get_vote_list_m
+[2016-06-05 17:54:36.646] [INFO] normal - GET /pre_login
+[2016-06-05 17:54:36.973] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 17:54:36.975] [INFO] normal - POST /login
+[2016-06-05 17:54:37.181] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 17:54:37.193] [INFO] normal - GET /get_vote_list
+[2016-06-05 17:55:04.682] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 17:55:04.683] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 17:55:05.777] [INFO] normal - GET /pre_login
+[2016-06-05 17:55:05.995] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 17:55:06.006] [INFO] normal - POST /login
+[2016-06-05 17:55:06.256] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 17:55:06.461] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 17:55:06.462] [INFO] normal - GET /get_vote_list
+[2016-06-05 18:21:41.714] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 18:21:41.718] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 18:21:50.927] [INFO] normal - GET /pre_login
+[2016-06-05 18:21:51.221] [DEBUG] normal - User stefan has logined
+[2016-06-05 18:21:51.229] [INFO] normal - POST /login
+[2016-06-05 18:21:51.501] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 18:21:51.717] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 18:21:51.719] [INFO] normal - GET /get_vote_list_m
+[2016-06-05 18:27:00.138] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 18:27:00.139] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 18:27:01.323] [INFO] normal - GET /pre_login
+[2016-06-05 18:27:01.557] [DEBUG] normal - User stefan has logined
+[2016-06-05 18:27:01.563] [INFO] normal - POST /login
+[2016-06-05 18:27:01.785] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 18:27:01.976] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 18:27:01.978] [INFO] normal - GET /get_vote_list_m
+[2016-06-05 18:40:15.869] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 18:40:15.870] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 18:40:16.945] [INFO] normal - GET /pre_login
+[2016-06-05 18:40:17.157] [DEBUG] normal - User stefan has logined
+[2016-06-05 18:40:17.163] [INFO] normal - POST /login
+[2016-06-05 18:40:17.380] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 18:40:17.633] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 18:40:17.634] [INFO] normal - GET /get_vote_list_m
+[2016-06-05 18:44:28.932] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 18:44:28.934] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 18:44:50.284] [INFO] normal - GET /pre_login
+[2016-06-05 18:44:50.506] [DEBUG] normal - User stefan has logined
+[2016-06-05 18:44:50.515] [INFO] normal - POST /login
+[2016-06-05 18:44:50.736] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 18:44:50.928] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 18:44:50.930] [INFO] normal - GET /get_vote_list_m
+[2016-06-05 18:45:04.753] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 18:45:04.755] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 18:45:05.431] [INFO] normal - GET /pre_login
+[2016-06-05 18:45:05.648] [DEBUG] normal - User stefan has logined
+[2016-06-05 18:45:05.655] [INFO] normal - POST /login
+[2016-06-05 18:45:05.853] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 18:45:06.052] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 18:45:06.054] [INFO] normal - GET /get_vote_list_m
+[2016-06-05 18:45:40.284] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 18:45:40.285] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 18:45:42.673] [INFO] normal - GET /pre_login
+[2016-06-05 18:45:42.964] [DEBUG] normal - User stefan has logined
+[2016-06-05 18:45:42.973] [INFO] normal - POST /login
+[2016-06-05 18:45:43.167] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 18:45:43.358] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 18:45:43.360] [INFO] normal - GET /get_vote_list_m
+[2016-06-05 18:46:24.608] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 18:46:24.610] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 18:46:27.105] [INFO] normal - GET /pre_login
+[2016-06-05 18:46:27.344] [DEBUG] normal - User stefan has logined
+[2016-06-05 18:46:27.354] [INFO] normal - POST /login
+[2016-06-05 18:46:27.560] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 18:46:27.761] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 18:46:27.762] [INFO] normal - GET /get_vote_list_m
+[2016-06-05 18:46:52.924] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 18:46:52.927] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 18:46:54.310] [INFO] normal - GET /pre_login
+[2016-06-05 18:46:54.629] [DEBUG] normal - User stefan has logined
+[2016-06-05 18:46:54.641] [INFO] normal - POST /login
+[2016-06-05 18:46:54.890] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 18:46:55.153] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 18:46:55.155] [INFO] normal - GET /get_vote_list_m
+[2016-06-05 18:47:17.709] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 18:47:17.710] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 18:47:19.263] [INFO] normal - GET /pre_login
+[2016-06-05 18:47:19.498] [DEBUG] normal - User stefan has logined
+[2016-06-05 18:47:19.504] [INFO] normal - POST /login
+[2016-06-05 18:47:19.723] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 18:47:20.037] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 18:47:20.038] [INFO] normal - GET /get_vote_list_m
+[2016-06-05 18:53:58.175] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 18:53:58.176] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 18:54:00.822] [INFO] normal - GET /pre_login
+[2016-06-05 18:54:01.049] [DEBUG] normal - User stefan has logined
+[2016-06-05 18:54:01.056] [INFO] normal - POST /login
+[2016-06-05 18:54:01.253] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 18:54:01.552] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 18:54:01.556] [INFO] normal - GET /get_vote_list_m
+[2016-06-05 18:54:15.706] [INFO] normal - GET /pre_login
+[2016-06-05 18:54:15.952] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 18:54:15.955] [INFO] normal - POST /login
+[2016-06-05 18:54:16.180] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 18:54:16.378] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 18:54:16.380] [INFO] normal - GET /get_vote_list
+[2016-06-05 18:54:56.065] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 18:54:56.067] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 18:54:58.210] [INFO] normal - GET /pre_login
+[2016-06-05 18:54:58.432] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 18:54:58.447] [INFO] normal - POST /login
+[2016-06-05 18:54:58.648] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 18:54:58.855] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 18:54:58.856] [INFO] normal - GET /get_vote_list
+[2016-06-05 19:52:32.490] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 19:52:32.493] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 19:52:34.438] [INFO] normal - GET /pre_login
+[2016-06-05 19:52:34.728] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 19:52:34.735] [INFO] normal - POST /login
+[2016-06-05 19:52:34.930] [DEBUG] normal - update_token for difan.chensuccess
+[2016-06-05 19:53:12.809] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 19:53:12.812] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 19:53:12.931] [INFO] normal - GET /pre_login
+[2016-06-05 19:53:13.159] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 19:53:13.164] [INFO] normal - POST /login
+[2016-06-05 19:53:13.350] [DEBUG] normal - update_token for difan.chensuccess
+[2016-06-05 19:53:13.536] [ERROR] normal - Token not valid.
+[2016-06-05 19:53:13.538] [INFO] normal - GET /get_vote_list
+[2016-06-05 19:53:55.316] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 19:53:55.320] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 19:53:56.144] [INFO] normal - GET /pre_login
+[2016-06-05 19:53:56.378] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 19:53:56.391] [INFO] normal - POST /login
+[2016-06-05 19:53:56.580] [DEBUG] normal - update_token for difan.chensuccess
+[2016-06-05 19:53:56.769] [ERROR] normal - Token not valid .
+[2016-06-05 19:53:56.771] [INFO] normal - GET /get_vote_list
+[2016-06-05 19:54:40.578] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 19:54:40.579] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 19:54:41.073] [INFO] normal - GET /pre_login
+[2016-06-05 19:54:41.297] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 19:54:41.306] [INFO] normal - POST /login
+[2016-06-05 19:54:41.496] [DEBUG] normal - update_token for difan.chensuccess
+[2016-06-05 19:54:41.692] [ERROR] normal - Token not valid .
+[2016-06-05 19:54:41.696] [INFO] normal - GET /get_vote_list
+[2016-06-05 19:55:45.772] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 19:55:45.773] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 19:55:46.806] [INFO] normal - GET /pre_login
+[2016-06-05 19:55:47.076] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 19:55:47.084] [INFO] normal - POST /login
+[2016-06-05 19:55:47.092] [ERROR] normal - [ReferenceError: token is not defined]
+ReferenceError: token is not defined
+    at Object.dao.get_user (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/app/dao_module/user_manager_dao.js:171:71)
+    at routes.isLoggedIn (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/app/route_module/routes.js:19:21)
+    at Layer.handle [as handle_request] (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/express/lib/router/index.js:271:10)
+    at /Users/dick/Dropbox/Workspace/NODEJS_PROJECT/Evoting-Auth-Server/node_modules/log4js/lib/connect-logger.js:103:5
+[2016-06-05 19:55:47.100] [INFO] normal - GET /get_vote_list
+[2016-06-05 19:55:47.284] [DEBUG] normal - update_token for difan.chensuccess
+[2016-06-05 19:56:07.992] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 19:56:07.994] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 19:56:08.731] [INFO] normal - GET /pre_login
+[2016-06-05 19:56:08.958] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 19:56:08.965] [INFO] normal - POST /login
+[2016-06-05 19:56:09.151] [DEBUG] normal - update_token for difan.chensuccess
+[2016-06-05 19:56:09.336] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 19:56:09.535] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 19:56:09.537] [INFO] normal - GET /get_vote_list
+[2016-06-05 19:57:15.910] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 19:57:15.911] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 19:57:16.929] [INFO] normal - GET /pre_login
+[2016-06-05 19:57:17.168] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 19:57:17.178] [INFO] normal - POST /login
+[2016-06-05 19:57:17.383] [DEBUG] normal - update_token for difan.chensuccess
+[2016-06-05 19:57:17.563] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 19:57:17.770] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 19:57:17.772] [INFO] normal - GET /get_vote_list
+[2016-06-05 19:57:32.428] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 19:57:32.432] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 19:57:33.315] [INFO] normal - GET /pre_login
+[2016-06-05 19:57:33.539] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 19:57:33.547] [INFO] normal - POST /login
+[2016-06-05 19:57:33.723] [DEBUG] normal - update_token for difan.chensuccess
+[2016-06-05 19:57:33.905] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 19:57:34.092] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 19:57:34.094] [INFO] normal - GET /get_vote_list
+[2016-06-05 19:58:11.882] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 19:58:11.883] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 20:14:46.503] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 20:14:46.505] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 20:14:47.344] [INFO] normal - GET /pre_login
+[2016-06-05 20:14:47.587] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 20:14:47.598] [INFO] normal - POST /login
+[2016-06-05 20:14:47.780] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-05 20:14:47.968] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 20:14:48.174] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 20:14:48.176] [INFO] normal - GET /get_vote_list
+[2016-06-05 20:14:58.766] [INFO] normal - GET /pre_login
+[2016-06-05 20:14:59.011] [DEBUG] normal - User stefan has logined
+[2016-06-05 20:14:59.013] [INFO] normal - POST /login
+[2016-06-05 20:14:59.248] [DEBUG] normal - update_token for stefan success.
+[2016-06-05 20:14:59.460] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 20:15:00.059] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 20:15:00.061] [INFO] normal - GET /get_vote_m
+[2016-06-05 20:18:38.535] [INFO] normal - GET /pre_login
+[2016-06-05 20:18:38.762] [DEBUG] normal - User stefan has logined
+[2016-06-05 20:18:38.765] [INFO] normal - POST /login
+[2016-06-05 20:18:38.953] [DEBUG] normal - update_token for stefan success.
+[2016-06-05 20:18:39.142] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 20:18:39.331] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 20:18:39.333] [INFO] normal - GET /get_vote_list_m
+[2016-06-05 20:23:39.897] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 20:23:39.898] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 20:24:12.557] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 20:24:12.559] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 20:24:31.200] [INFO] normal - GET /pre_login
+[2016-06-05 20:24:31.431] [DEBUG] normal - User stefan has logined
+[2016-06-05 20:24:31.437] [INFO] normal - POST /login
+[2016-06-05 20:24:31.627] [DEBUG] normal - update_token for stefan success.
+[2016-06-05 20:24:31.823] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-05 20:24:32.041] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 20:24:32.042] [INFO] normal - GET /get_vote_list_m
+[2016-06-05 21:12:29.399] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 21:12:29.401] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 21:12:33.349] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 21:12:33.351] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, s: 45, q: 8 }
+[2016-06-05 21:12:37.573] [INFO] normal - GET /pre_login
+[2016-06-05 21:12:37.830] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 21:12:37.838] [INFO] normal - POST /login
+[2016-06-05 21:12:38.018] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-05 21:12:38.206] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 21:12:38.391] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 21:12:38.392] [INFO] normal - GET /get_vote_list
+[2016-06-05 21:12:38.396] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 21:12:38.953] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 21:12:38.955] [INFO] normal - GET /get_vote
+[2016-06-05 21:12:46.971] [INFO] normal - GET /pre_login
+[2016-06-05 21:12:47.197] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 21:12:47.204] [INFO] normal - POST /login
+[2016-06-05 21:12:47.427] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-05 21:12:47.622] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 21:12:48.217] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 21:12:48.218] [INFO] normal - GET /get_vote
+[2016-06-05 21:21:04.031] [INFO] normal - GET /pre_login
+[2016-06-05 21:21:04.269] [DEBUG] normal - User difan.chen has logined
+[2016-06-05 21:21:04.274] [INFO] normal - POST /login
+[2016-06-05 21:21:04.478] [DEBUG] normal - update_token for difan.chen success.
+[2016-06-05 21:21:04.671] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-05 21:21:05.347] [DEBUG] normal - get_vote_list successfully
+[2016-06-05 21:21:05.352] [INFO] normal - GET /get_vote
+[2016-06-05 23:43:59.788] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 23:43:59.790] [DEBUG] normal - { p: 2017, g: 602, h: 1595, gn: 576, q: 7 }
+[2016-06-05 23:52:24.638] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 23:52:24.639] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 7,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret_share: 5 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret_share: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret_share: 56 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret_share: 126 } ] }
+[2016-06-05 23:53:22.408] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 23:53:22.409] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 7,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 5 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 56 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 126 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 89 } ] }
+[2016-06-05 23:57:44.515] [DEBUG] normal - load_sys_params successful.
+[2016-06-05 23:57:44.516] [DEBUG] normal - { p: 2017,
+  g: 602,
+  h: 1595,
+  gn: 576,
+  q: 7,
+  secret_shares: 
+   [ RowDataPacket { ks_id: 1, sp_id: 1, tally_seq: 1, secret: 5 },
+     RowDataPacket { ks_id: 2, sp_id: 1, tally_seq: 2, secret: 123 },
+     RowDataPacket { ks_id: 3, sp_id: 1, tally_seq: 3, secret: 56 },
+     RowDataPacket { ks_id: 4, sp_id: 1, tally_seq: 4, secret: 126 },
+     RowDataPacket { ks_id: 5, sp_id: 1, tally_seq: 5, secret: 89 } ] }

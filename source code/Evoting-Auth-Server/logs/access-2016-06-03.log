@@ -1,0 +1,14 @@
+[2016-06-03 19:44:20.777] [INFO] normal - GET /pre_login
+[2016-06-03 19:44:20.997] [DEBUG] normal - User stefan has logined
+[2016-06-03 19:44:21.004] [INFO] normal - POST /login
+[2016-06-03 19:44:21.194] [DEBUG] normal - User stefan is accessing.
+[2016-06-03 19:44:21.195] [DEBUG] normal - { title: 'asdasdasdsadassd' }
+[2016-06-03 19:44:21.221] [INFO] normal - propose_vote asdasdasdsadassd successfully
+[2016-06-03 19:44:21.224] [INFO] normal - POST /propose_vote
+[2016-06-03 19:44:22.769] [INFO] normal - GET /pre_login
+[2016-06-03 19:44:22.975] [DEBUG] normal - User stefan has logined
+[2016-06-03 19:44:22.979] [INFO] normal - POST /login
+[2016-06-03 19:44:23.179] [DEBUG] normal - User stefan is accessing.
+[2016-06-03 19:44:23.179] [DEBUG] normal - { title: 'asdasdasdsadassd' }
+[2016-06-03 19:44:23.179] [INFO] normal - propose_vote asdasdasdsadassd successfully
+[2016-06-03 19:44:23.181] [INFO] normal - POST /propose_vote

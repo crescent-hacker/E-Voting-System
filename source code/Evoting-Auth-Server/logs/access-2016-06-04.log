@@ -1,0 +1,120 @@
+[2016-06-04 21:42:26.905] [INFO] normal - GET /pre_login
+[2016-06-04 21:42:27.192] [DEBUG] normal - User stefan has logined
+[2016-06-04 21:42:27.199] [INFO] normal - POST /login
+[2016-06-04 21:42:27.414] [DEBUG] normal - User stefan is accessing.
+[2016-06-04 21:42:27.616] [DEBUG] normal - User stefan is accessing.
+[2016-06-04 21:42:27.617] [DEBUG] normal - { title: 'asdasdasdsadassd' }
+[2016-06-04 21:42:27.634] [INFO] normal - propose_vote asdasdasdsadassd successfully
+[2016-06-04 21:42:27.636] [INFO] normal - POST /propose_vote
+[2016-06-04 21:42:28.042] [INFO] normal - disable_user difanchen successfully
+[2016-06-04 21:42:28.043] [INFO] normal - POST /disable_user
+[2016-06-04 21:43:51.425] [INFO] normal - GET /pre_login
+[2016-06-04 21:43:51.674] [DEBUG] normal - User stefan has logined
+[2016-06-04 21:43:51.681] [INFO] normal - POST /login
+[2016-06-04 21:43:51.889] [DEBUG] normal - User stefan is accessing.
+[2016-06-04 21:43:52.097] [ERROR] normal - [ 'disable_user: That user has been disabled.' ]
+[2016-06-04 21:43:52.100] [INFO] normal - POST /disable_user
+[2016-06-04 21:57:39.967] [INFO] normal - GET /pre_login
+[2016-06-04 21:57:40.297] [DEBUG] normal - User stefan has logined
+[2016-06-04 21:57:40.305] [INFO] normal - POST /login
+[2016-06-04 21:57:40.506] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-04 21:57:40.917] [DEBUG] normal - add_user difan.chen successfully; pwd is kZKVMeamj+rFMLTVuxhW3dUyJILv/B/szGFoBNQh1Po=
+[2016-06-04 21:57:40.919] [INFO] normal - POST /add_user
+[2016-06-04 21:58:03.684] [INFO] normal - GET /pre_login
+[2016-06-04 21:58:03.949] [DEBUG] normal - User stefan has logined
+[2016-06-04 21:58:03.951] [INFO] normal - POST /login
+[2016-06-04 21:58:04.157] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-04 21:58:04.357] [ERROR] normal - [ 'add_user: That username is already taken.' ]
+[2016-06-04 21:58:04.362] [INFO] normal - POST /add_user
+[2016-06-04 21:58:18.540] [INFO] normal - GET /pre_login
+[2016-06-04 21:58:18.806] [DEBUG] normal - User stefan has logined
+[2016-06-04 21:58:18.808] [INFO] normal - POST /login
+[2016-06-04 21:58:19.022] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-04 21:58:19.425] [INFO] normal - add_users successfully
+[2016-06-04 21:58:19.431] [INFO] normal - POST /add_users
+[2016-06-04 21:59:01.060] [INFO] normal - GET /pre_login
+[2016-06-04 21:59:01.277] [DEBUG] normal - User stefan has logined
+[2016-06-04 21:59:01.283] [INFO] normal - POST /login
+[2016-06-04 21:59:01.486] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-04 21:59:01.690] [ERROR] normal - [ 'add_users: Some usernames are already taken.' ]
+[2016-06-04 21:59:01.694] [INFO] normal - POST /add_users
+[2016-06-04 22:01:17.267] [INFO] normal - GET /pre_login
+[2016-06-04 22:01:17.507] [INFO] normal - POST /login
+[2016-06-04 22:01:40.402] [INFO] normal - GET /pre_login
+[2016-06-04 22:01:40.641] [INFO] normal - POST /login
+[2016-06-04 22:02:23.551] [INFO] normal - GET /pre_login
+[2016-06-04 22:02:23.813] [DEBUG] normal - User difan.chen has logined
+[2016-06-04 22:02:23.818] [INFO] normal - POST /login
+[2016-06-04 22:02:24.031] [ERROR] normal - User difan.chen is not activated.
+[2016-06-04 22:02:24.035] [INFO] normal - POST /get_vote_list
+[2016-06-04 22:04:42.257] [INFO] normal - GET /pre_login
+[2016-06-04 22:04:42.597] [DEBUG] normal - User difan.chen has logined
+[2016-06-04 22:04:42.599] [INFO] normal - POST /login
+[2016-06-04 22:04:42.815] [ERROR] normal - User difan.chen is not activated.
+[2016-06-04 22:04:42.817] [INFO] normal - POST /modify_pwd
+[2016-06-04 22:05:18.843] [INFO] normal - GET /pre_login
+[2016-06-04 22:05:19.077] [DEBUG] normal - User stefan has logined
+[2016-06-04 22:05:19.079] [INFO] normal - POST /login
+[2016-06-04 22:05:19.284] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-04 22:05:20.186] [DEBUG] normal - activate_user difan.chen successfully
+[2016-06-04 22:05:20.214] [INFO] normal - POST /activate_user
+[2016-06-04 22:11:48.794] [INFO] normal - GET /pre_login
+[2016-06-04 22:11:49.022] [DEBUG] normal - User stefan has logined
+[2016-06-04 22:11:49.025] [INFO] normal - POST /login
+[2016-06-04 22:11:49.236] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-04 22:12:11.272] [INFO] normal - GET /pre_login
+[2016-06-04 22:12:11.489] [DEBUG] normal - User stefan has logined
+[2016-06-04 22:12:11.495] [INFO] normal - POST /login
+[2016-06-04 22:12:11.726] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-04 22:12:12.132] [DEBUG] normal - disable_user difan.chen successfully
+[2016-06-04 22:12:12.133] [INFO] normal - POST /disable_user
+[2016-06-04 22:12:35.486] [INFO] normal - GET /pre_login
+[2016-06-04 22:12:35.791] [DEBUG] normal - User stefan has logined
+[2016-06-04 22:12:35.795] [INFO] normal - POST /login
+[2016-06-04 22:12:35.992] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-04 22:12:36.191] [ERROR] normal - [ 'disable_user: That user has been disabled.' ]
+[2016-06-04 22:12:36.195] [INFO] normal - POST /disable_user
+[2016-06-04 22:12:54.711] [INFO] normal - GET /pre_login
+[2016-06-04 22:12:54.927] [DEBUG] normal - User stefan has logined
+[2016-06-04 22:12:54.930] [INFO] normal - POST /login
+[2016-06-04 22:12:55.132] [DEBUG] normal - Admin User stefan is accessing.
+[2016-06-04 22:12:55.523] [DEBUG] normal - activate_user difan.chen successfully
+[2016-06-04 22:12:55.550] [INFO] normal - POST /activate_user
+[2016-06-04 22:13:39.170] [INFO] normal - GET /pre_login
+[2016-06-04 22:13:39.369] [DEBUG] normal - User difan.chen has logined
+[2016-06-04 22:13:39.371] [INFO] normal - POST /login
+[2016-06-04 22:13:39.576] [ERROR] normal - Permission denied.
+[2016-06-04 22:13:39.579] [INFO] normal - POST /activate_user
+[2016-06-04 22:13:52.918] [INFO] normal - GET /pre_login
+[2016-06-04 22:13:53.149] [DEBUG] normal - User difan.chen has logined
+[2016-06-04 22:13:53.151] [INFO] normal - POST /login
+[2016-06-04 22:13:53.347] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-04 22:13:53.348] [ERROR] normal - [ 'modify_pwd: Password too simple.' ]
+[2016-06-04 22:13:53.350] [INFO] normal - POST /modify_pwd
+[2016-06-04 22:14:06.963] [INFO] normal - GET /pre_login
+[2016-06-04 22:14:07.202] [DEBUG] normal - User difan.chen has logined
+[2016-06-04 22:14:07.204] [INFO] normal - POST /login
+[2016-06-04 22:14:07.417] [ERROR] normal - User difan.chen has not modified password.
+[2016-06-04 22:14:07.418] [INFO] normal - POST /get_vote_list
+[2016-06-04 22:18:12.353] [INFO] normal - GET /pre_login
+[2016-06-04 22:18:12.576] [DEBUG] normal - User difan.chen has logined
+[2016-06-04 22:18:12.580] [INFO] normal - POST /login
+[2016-06-04 22:18:12.791] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-04 22:18:12.791] [ERROR] normal - [ 'modify_pwd: Password too simple.' ]
+[2016-06-04 22:18:12.793] [INFO] normal - POST /modify_pwd
+[2016-06-04 22:18:45.061] [INFO] normal - GET /pre_login
+[2016-06-04 22:18:45.358] [DEBUG] normal - User difan.chen has logined
+[2016-06-04 22:18:45.361] [INFO] normal - POST /login
+[2016-06-04 22:18:45.559] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-04 22:19:15.292] [INFO] normal - GET /pre_login
+[2016-06-04 22:19:15.569] [DEBUG] normal - User difan.chen has logined
+[2016-06-04 22:19:15.578] [INFO] normal - POST /login
+[2016-06-04 22:19:15.789] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-04 22:19:16.167] [DEBUG] normal - modify_pwd difan.chen successfully; pwd is KQJv9+4t0yDYKVybthxCtJUzNiD9te5fueffeVigFM4=
+[2016-06-04 22:19:16.168] [INFO] normal - POST /modify_pwd
+[2016-06-04 22:19:46.374] [INFO] normal - GET /pre_login
+[2016-06-04 22:19:46.626] [DEBUG] normal - User difan.chen has logined
+[2016-06-04 22:19:46.629] [INFO] normal - POST /login
+[2016-06-04 22:19:46.826] [DEBUG] normal - Normal User difan.chen is accessing.
+[2016-06-04 22:19:46.827] [INFO] normal - {}
+[2016-06-04 22:19:46.829] [INFO] normal - POST /get_vote_list
